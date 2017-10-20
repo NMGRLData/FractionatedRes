@@ -1,0 +1,3616 @@
+do run
+loading script "felix_peak_hop_argon_2CDD_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x5.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=139.8, duration=0.0107910633087
+script duration name:peak_hop_argon_2CDD_CDD_center seconds:140.0
+loading script "felix_peak_hop_argon_2CDD_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x5.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=2.00271606445e-05
+loading script "felix_peak_hop_argon_2CDD_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x5.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=5.00679016113e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=8.79764556885e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=7.48634338379e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.20159912109e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=6.60419464111e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=6.89029693604e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000236988067627
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=6.103515625e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=7.9870223999e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=5.79357147217e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.01086425781e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=5.69820404053e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.10623168945e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=5.88893890381e-05
+executed snippet estimated_duration=384.0, duration=0.0137071609497
+script duration name:air_x5 seconds:384.0
+loading script "felix_peak_hop_argon_2CDD_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x5.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000135898590088
+executed snippet estimated_duration=4.0, duration=0.00179505348206
+Script duration 524.0
+Run total estimated duration= 525.000
+run duration: 0:08:45
+doing event level: 2
+14:24:53 -- Setting default integration. t=1.048576
+setting integration time = 1.048576
+SetIntegrationTime 1.048576 ===>> OK
+----------------- start -----------------
+**************** Experiment Type: Ar/Ar, Ar/Ar
+create new session 5056658608
+close session 5056658608
+$$$$$ Clearing conditionals
+adding conditionals 
+Add queue conditionals
+add default conditionals
+adding default conditionals from /Users/obama/PychronDev/setupfiles/spectrometer/default_conditionals.yaml
+Start automated run a-01-F-2575
+loading script "felix_peak_hop_argon_2CDD_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x5.py"
+loading script "felix_pump_extraction_line.py"
+%%%%%%%%%%%%%%%%%% setting automated run a-01-F-2575
+No value "sensitivity_multiplier" in metadata
+$$$$$$$$$$$$$$$ auto_save_detector_ic=False
+============================= Pre Extraction Check =============================
+loading queue conditionals pre_run_terminations
+loading system conditionals pre_run_terminations
+loading conditionals from /Users/obama/PychronDev/setupfiles/spectrometer/default_conditionals.yaml
+14:24:54 -- ******* Pre Extraction Check *******
+Get a measurement from the spectrometer
+Pre Extraction Termination data. keys=AX(CDD),L2(CDD),H2,H1,AX,L1, signals=0.00000,0.00000,0.03899,0.00728,-0.00666,-0.01983
+14:24:54 -- testing system defined conditionals
+Checking default pre extraction terminations n=2
+testing L2_CDD_
+evaluate ot="L2(CDD).inactive" t="L2_CDD_", ctx="{'L2_CDD_': False}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+14:24:54 -- ******* Pre Extraction Check Passed *******
+=================================================================================
+14:24:54 -- stopping status monitor. block=True
+stop 5032563536
+Status monitor stopped
+Status monitor finished
+14:24:58 -- starting status monitor
+start 5032563536
+StatusMonitor period=3. Frequencies(state=1, checksum=3, lock=5, owner=5)
+start extraction
+do extraction
+Analysis started at 14:25:03.148946
+Extraction Started felix_air_x5.py
+14:25:03 -- ******* Extraction Started felix_air_x5.py *******
+state changed from not run to extraction
+DO EXTRACTION <pychron.extraction_line.pyscript_runner.RemotePyScriptRunner object at 0x12fff8470>
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=4.50611114502e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=8.79764556885e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=7.20024108887e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000123977661133
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=5.22136688232e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=6.19888305664e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=7.9870223999e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=5.88893890381e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=7.89165496826e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=6.38961791992e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.20159912109e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=5.91278076172e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.10623168945e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=6.07967376709e-05
+executed snippet estimated_duration=384.0, duration=0.0128710269928
+Air Pipette x5
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=4.19616699219e-05
+Waiting for minibone access
+wait ('JanMiniboneFlag', 0) {}
+waiting for JanMiniboneFlag = 0
+Read JanMiniboneFlag ===>> 0
+finished waiting
+Minibone released
+wait ('MinibonePumpTimeFlag', 0) {}
+waiting for MinibonePumpTimeFlag = 0
+Read MinibonePumpTimeFlag ===>> 0
+finished waiting
+acquire ('FelixMiniboneFlag',) {'clear': True}
+acquire FelixMiniboneFlag
+Set FelixMiniboneFlag 1 ===>> OK
+FelixMiniboneFlag acquired
+set extraction state False (0.75, 'red', 1.5)
+minibone acquired
+executed snippet estimated_duration=0, duration=0.0197470188141
+WaitForMiniboneAccess.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=9.10758972168e-05
+Prepare for Air Shot
+close () {'description': 'Felix Inlet'}
+close name=--- desc=Felix Inlet
+checking ownership. requestor=192.168.2.137
+check software interlocks H
+interlocks []
+actuate state mode=None-script, software_lock=True
+VALVE-H(Felix Inlet) software locked
+change switch state (True, False)
+-------------------------- close None (Felix Inlet) result=[(True, False)]
+action=close, ok=True, locked=[True]
+open () {'description': 'Felix Ion Pump'}
+open name=--- desc=Felix Ion Pump
+checking ownership. requestor=192.168.2.137
+check software interlocks V
+interlocks []
+actuate state mode=None-script, software_lock=True
+VALVE-V(Felix Ion Pump) software locked
+change switch state (True, False)
+-------------------------- open None (Felix Ion Pump) result=[(True, False)]
+action=open, ok=True, locked=[True]
+close () {'description': 'Microbone to Minibone'}
+close name=--- desc=Microbone to Minibone
+checking ownership. requestor=192.168.2.137
+check software interlocks L
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close L ===>> OK
+GetIndicatorState L ===>> False
+change switch state (True, True)
+14:25:03 -- CLOSE  VALVE-L (Microbone to Minibone)
+-------------------------- close None (Microbone to Minibone) result=[(True, True)]
+action=close, ok=True, locked=[False]
+close () {'description': 'Quad Inlet'}
+close name=--- desc=Quad Inlet
+checking ownership. requestor=192.168.2.137
+check software interlocks Q
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Q ===>> OK
+GetIndicatorState Q ===>> False
+change switch state (True, True)
+14:25:04 -- CLOSE  VALVE-Q (Quad Inlet)
+-------------------------- close None (Quad Inlet) result=[(True, True)]
+action=close, ok=True, locked=[False]
+open () {'description': 'Bone to Turbo'}
+open name=--- desc=Bone to Turbo
+checking ownership. requestor=192.168.2.137
+check software interlocks C
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open C ===>> OK
+GetIndicatorState C ===>> OK
+change switch state (True, True)
+14:25:04 -- OPEN   VALVE-C (Bone to Turbo)
+-------------------------- open None (Bone to Turbo) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Bone to Minibone'}
+open name=--- desc=Bone to Minibone
+checking ownership. requestor=192.168.2.137
+check software interlocks E
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open E ===>> OK
+GetIndicatorState E ===>> OK
+change switch state (True, True)
+14:25:05 -- OPEN   VALVE-E (Bone to Minibone)
+-------------------------- open None (Bone to Minibone) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Minibone to Bone'}
+open name=--- desc=Minibone to Bone
+checking ownership. requestor=192.168.2.137
+check software interlocks I
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open I ===>> OK
+GetIndicatorState I ===>> OK
+change switch state (True, True)
+14:25:05 -- OPEN   VALVE-I (Minibone to Bone)
+-------------------------- open None (Minibone to Bone) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Bone to Getter GP-50'}
+open name=--- desc=Bone to Getter GP-50
+checking ownership. requestor=192.168.2.137
+check software interlocks N
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open N ===>> OK
+GetIndicatorState N ===>> OK
+change switch state (True, True)
+14:25:06 -- OPEN   VALVE-N (Bone to Getter GP-50)
+-------------------------- open None (Bone to Getter GP-50) result=[(True, True)]
+action=open, ok=True, locked=[False]
+close () {'description': 'Bone to CO2 Laser'}
+close name=--- desc=Bone to CO2 Laser
+checking ownership. requestor=192.168.2.137
+check software interlocks D
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close D ===>> OK
+GetIndicatorState D ===>> False
+change switch state (True, True)
+14:25:06 -- CLOSE  VALVE-D (Bone to CO2 Laser)
+-------------------------- close None (Bone to CO2 Laser) result=[(True, True)]
+action=close, ok=True, locked=[False]
+close () {'description': 'Bone to Diode Laser'}
+close name=--- desc=Bone to Diode Laser
+checking ownership. requestor=192.168.2.137
+check software interlocks B
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close B ===>> OK
+GetIndicatorState B ===>> False
+change switch state (True, True)
+14:25:07 -- CLOSE  VALVE-B (Bone to Diode Laser)
+-------------------------- close None (Bone to Diode Laser) result=[(True, True)]
+action=close, ok=True, locked=[False]
+executed snippet estimated_duration=0, duration=4.47201895714
+PrepareForAirShot.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=8.9168548584e-05
+Evacuate Pipette 2
+open () {'description': 'Minibone to Turbo'}
+open name=--- desc=Minibone to Turbo
+checking ownership. requestor=192.168.2.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open P ===>> OK
+GetIndicatorState P ===>> OK
+change switch state (True, True)
+14:25:07 -- OPEN   VALVE-P (Minibone to Turbo)
+-------------------------- open None (Minibone to Turbo) result=[(True, True)]
+action=open, ok=True, locked=[False]
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close Z ===>> OK
+GetIndicatorState Z ===>> False
+change switch state (True, True)
+14:25:08 -- CLOSE  VALVE-Z (Inner Pipette 2)
+-------------------------- close None (Inner Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Y ===>> OK
+GetIndicatorState Y ===>> OK
+change switch state (True, True)
+14:25:09 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Join finished
+block finished. duration 15.0801861286
+executed snippet estimated_duration=48.0, duration=17.3795750141
+EvacPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=9.10758972168e-05
+Fill Pipette 2
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+14:25:25 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+filling air pipette
+open () {'description': 'Inner Pipette 2'}
+open name=--- desc=Inner Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Z ===>> OK
+GetIndicatorState Z ===>> OK
+change switch state (True, True)
+14:25:26 -- OPEN   VALVE-Z (Inner Pipette 2)
+-------------------------- open None (Inner Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Join finished
+block finished. duration 15.0601859093
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Z ===>> OK
+GetIndicatorState Z ===>> False
+change switch state (True, True)
+14:25:42 -- CLOSE  VALVE-Z (Inner Pipette 2)
+-------------------------- close None (Inner Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+executed snippet estimated_duration=51.0, duration=18.2938799858
+FillPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=0.000108003616333
+Prepare for air expansion
+close () {'description': 'Bone to Turbo'}
+close name=--- desc=Bone to Turbo
+checking ownership. requestor=192.168.2.137
+check software interlocks C
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close C ===>> OK
+GetIndicatorState C ===>> False
+change switch state (True, True)
+14:25:43 -- CLOSE  VALVE-C (Bone to Turbo)
+-------------------------- close None (Bone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+open () {'description': 'Bone to Minibone'}
+open name=--- desc=Bone to Minibone
+checking ownership. requestor=192.168.2.137
+check software interlocks E
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open E ===>> OK
+GetIndicatorState E ===>> OK
+change switch state (True, True)
+14:25:45 -- OPEN   VALVE-E (Bone to Minibone)
+-------------------------- open None (Bone to Minibone) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Minibone to Bone'}
+open name=--- desc=Minibone to Bone
+checking ownership. requestor=192.168.2.137
+check software interlocks I
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open I ===>> OK
+GetIndicatorState I ===>> OK
+change switch state (True, True)
+14:25:45 -- OPEN   VALVE-I (Minibone to Bone)
+-------------------------- open None (Minibone to Bone) result=[(True, True)]
+action=open, ok=True, locked=[False]
+executed snippet estimated_duration=3.0, duration=2.62461280823
+PrepareForAirShotExpansion.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000118970870972
+Expand Pipette 2
+close () {'description': 'Minibone to Turbo'}
+close name=--- desc=Minibone to Turbo
+checking ownership. requestor=192.168.2.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close P ===>> OK
+GetIndicatorState P ===>> False
+change switch state (True, True)
+14:25:46 -- CLOSE  VALVE-P (Minibone to Turbo)
+-------------------------- close None (Minibone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+Join finished
+block finished. duration 2.00730013847
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Y ===>> OK
+GetIndicatorState Y ===>> OK
+increment shot count 6541
+saved current shot count 6541
+change switch state (True, True)
+14:25:48 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+set states for children of V. state=True
+refresh_canvas_needed fired
+State checksums do not match. Local:-1511929370 Remote:-1110496528
+State checksum failed
+refresh_lock_state fired. ('H', False)
+refresh_lock_state fired. ('V', False)
+refresh_canvas_needed fired
+Join finished
+block finished. duration 15.0653669834
+executed snippet estimated_duration=51.0, duration=18.0931010246
+ExpandPipette2.py completed successfully
+gosub finished
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+14:26:04 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+Shot 2
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000113010406494
+Fill Pipette 2
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+14:26:05 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+filling air pipette
+open () {'description': 'Inner Pipette 2'}
+open name=--- desc=Inner Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Z ===>> OK
+GetIndicatorState Z ===>> OK
+change switch state (True, True)
+14:26:07 -- OPEN   VALVE-Z (Inner Pipette 2)
+-------------------------- open None (Inner Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Join finished
+block finished. duration 15.0491268635
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Z ===>> OK
+GetIndicatorState Z ===>> False
+change switch state (True, True)
+14:26:22 -- CLOSE  VALVE-Z (Inner Pipette 2)
+-------------------------- close None (Inner Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+executed snippet estimated_duration=51.0, duration=18.2284989357
+FillPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.79764556885e-05
+Expand Pipette 2
+close () {'description': 'Minibone to Turbo'}
+close name=--- desc=Minibone to Turbo
+checking ownership. requestor=192.168.2.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close P ===>> OK
+GetIndicatorState P ===>> False
+change switch state (True, True)
+14:26:23 -- CLOSE  VALVE-P (Minibone to Turbo)
+-------------------------- close None (Minibone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+Join finished
+block finished. duration 2.01207089424
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Y ===>> OK
+GetIndicatorState Y ===>> OK
+increment shot count 6542
+saved current shot count 6542
+change switch state (True, True)
+14:26:26 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Join finished
+block finished. duration 15.0621469021
+executed snippet estimated_duration=51.0, duration=18.0568048954
+ExpandPipette2.py completed successfully
+gosub finished
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+14:26:42 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+Shot 3
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=9.48905944824e-05
+Fill Pipette 2
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+14:26:43 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+filling air pipette
+open () {'description': 'Inner Pipette 2'}
+open name=--- desc=Inner Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Z ===>> OK
+GetIndicatorState Z ===>> OK
+change switch state (True, True)
+14:26:44 -- OPEN   VALVE-Z (Inner Pipette 2)
+-------------------------- open None (Inner Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Join finished
+block finished. duration 15.0854229927
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Z ===>> OK
+GetIndicatorState Z ===>> False
+change switch state (True, True)
+14:27:00 -- CLOSE  VALVE-Z (Inner Pipette 2)
+-------------------------- close None (Inner Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+executed snippet estimated_duration=51.0, duration=18.2932100296
+FillPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000148057937622
+Expand Pipette 2
+close () {'description': 'Minibone to Turbo'}
+close name=--- desc=Minibone to Turbo
+checking ownership. requestor=192.168.2.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close P ===>> OK
+GetIndicatorState P ===>> False
+change switch state (True, True)
+14:27:01 -- CLOSE  VALVE-P (Minibone to Turbo)
+-------------------------- close None (Minibone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+Join finished
+block finished. duration 2.00874900818
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Y ===>> OK
+GetIndicatorState Y ===>> OK
+increment shot count 6543
+saved current shot count 6543
+change switch state (True, True)
+14:27:04 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Join finished
+block finished. duration 15.0661411285
+executed snippet estimated_duration=51.0, duration=18.0706570148
+ExpandPipette2.py completed successfully
+gosub finished
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+14:27:19 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+Shot 4
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000119924545288
+Fill Pipette 2
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+14:27:21 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+filling air pipette
+open () {'description': 'Inner Pipette 2'}
+open name=--- desc=Inner Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Z ===>> OK
+GetIndicatorState Z ===>> OK
+change switch state (True, True)
+14:27:22 -- OPEN   VALVE-Z (Inner Pipette 2)
+-------------------------- open None (Inner Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Join finished
+block finished. duration 15.0508358479
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Z ===>> OK
+GetIndicatorState Z ===>> False
+change switch state (True, True)
+14:27:38 -- CLOSE  VALVE-Z (Inner Pipette 2)
+-------------------------- close None (Inner Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+executed snippet estimated_duration=51.0, duration=18.2510941029
+FillPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000122785568237
+Expand Pipette 2
+close () {'description': 'Minibone to Turbo'}
+close name=--- desc=Minibone to Turbo
+checking ownership. requestor=192.168.2.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close P ===>> OK
+GetIndicatorState P ===>> False
+change switch state (True, True)
+14:27:39 -- CLOSE  VALVE-P (Minibone to Turbo)
+-------------------------- close None (Minibone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+Join finished
+block finished. duration 2.00821208954
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Y ===>> OK
+GetIndicatorState Y ===>> OK
+increment shot count 6544
+saved current shot count 6544
+change switch state (True, True)
+14:27:42 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Join finished
+block finished. duration 15.0564548969
+executed snippet estimated_duration=51.0, duration=18.0390918255
+ExpandPipette2.py completed successfully
+gosub finished
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+14:27:57 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+Shot 5
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=9.60826873779e-05
+Fill Pipette 2
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+14:27:59 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+filling air pipette
+open () {'description': 'Inner Pipette 2'}
+open name=--- desc=Inner Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Z ===>> OK
+GetIndicatorState Z ===>> OK
+change switch state (True, True)
+14:28:00 -- OPEN   VALVE-Z (Inner Pipette 2)
+-------------------------- open None (Inner Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Join finished
+block finished. duration 15.0592541695
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Z
+interlocks ['Y']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Z ===>> OK
+GetIndicatorState Z ===>> False
+change switch state (True, True)
+14:28:15 -- CLOSE  VALVE-Z (Inner Pipette 2)
+-------------------------- close None (Inner Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+executed snippet estimated_duration=51.0, duration=18.2579128742
+FillPipette2.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=7.48634338379e-05
+Expand Pipette 2
+close () {'description': 'Minibone to Turbo'}
+close name=--- desc=Minibone to Turbo
+checking ownership. requestor=192.168.2.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close P ===>> OK
+GetIndicatorState P ===>> False
+change switch state (True, True)
+14:28:17 -- CLOSE  VALVE-P (Minibone to Turbo)
+-------------------------- close None (Minibone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (2,) {}
+SLEEP 2.0
+block started
+WaitControl setup for 2.0  
+Join finished
+block finished. duration 2.0192129612
+open () {'description': 'Outer Pipette 2'}
+open name=--- desc=Outer Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Y ===>> OK
+GetIndicatorState Y ===>> OK
+increment shot count 6545
+saved current shot count 6545
+change switch state (True, True)
+14:28:19 -- OPEN   VALVE-Y (Outer Pipette 2)
+-------------------------- open None (Outer Pipette 2) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (15,) {}
+SLEEP 15.0
+block started
+WaitControl setup for 15.0  
+Join finished
+block finished. duration 15.0646300316
+executed snippet estimated_duration=51.0, duration=18.0648169518
+ExpandPipette2.py completed successfully
+gosub finished
+close () {'description': 'Outer Pipette 2'}
+close name=--- desc=Outer Pipette 2
+checking ownership. requestor=192.168.2.137
+check software interlocks Y
+interlocks ['Z']
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Y ===>> OK
+GetIndicatorState Y ===>> False
+change switch state (True, True)
+14:28:35 -- CLOSE  VALVE-Y (Outer Pipette 2)
+-------------------------- close None (Outer Pipette 2) result=[(True, True)]
+action=close, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+executed snippet estimated_duration=389.0, duration=213.637439013
+felix_air_x5.py completed successfully
+no extraction action
+Requested Output= 0.000
+Achieved Output=  0.000
+no extraction action
+no extraction action
+no extraction action
+no extraction action
+persistence save...
+persistence save - db
+AutomatedRunPersister post_extraction_save deprecated
+persistence save - dvc
+no extraction position for 
+Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/obama/PychronDev/data/.dvc/MetaData, universal_newlines=False, shell=None)
+not connected to db mysql://felixexp@129.138.12.160/labspy
+Enviromentals: {'lab_humiditys': [{'device': 'EnvironmentalMonitor',
+                    'name': 'Lab Hum.',
+                    'pub_date': '2017-10-20T13:50:39',
+                    'title': 'iServer Hum.',
+                    'value': 43.0}],
+ 'lab_pneumatics': [{'device': 'AirPressure',
+                     'name': 'Pressure',
+                     'pub_date': '2017-10-20T14:26:49',
+                     'title': None,
+                     'value': 102.6},
+                    {'device': 'AirPressure2',
+                     'name': 'Pressure2',
+                     'pub_date': '2017-10-20T14:27:01',
+                     'title': None,
+                     'value': 104.81302}],
+ 'lab_temperatures': [{'device': 'Coldfinger',
+                       'name': 'ColdFinger Temp.',
+                       'pub_date': '2017-10-20T14:24:56',
+                       'title': None,
+                       'value': 71.0},
+                      {'device': 'EnvironmentalMonitor',
+                       'name': 'Lab Temp.',
+                       'pub_date': '2017-10-20T14:15:53',
+                       'title': 'iServer Temp.',
+                       'value': 73.4},
+                      {'device': 'Chiller',
+                       'name': 'Coolant Temp.',
+                       'pub_date': '2017-10-20T14:25:35',
+                       'title': None,
+                       'value': 18.0}]}
+Extraction Finished
+14:28:39 -- ******* Extraction Finished *******
+no overlap. not waiting for min ms pumptime
+14:28:39 -- Sending spectrometer configuration
+======== Sending configuration ========
+caching configuration from /Users/obama/PychronDev/setupfiles/spectrometer/configurations/argon_2CDD.cfg
+SetDeflection H1(CDD),0.0 ===>> Error: could not set Deflection H1(CDD) Set to 0
+SetDeflection L2(CDD),0.0 ===>> Error: could not set Deflection L2(CDD) Set to 0
+SetDeflection L1(CDD),0.0 ===>> Error: could not set Deflection L1(CDD) Set to 0
+SetDeflection H2(CDD),600.0 ===>> Error: could not set Deflection H2(CDD) Set to 600
+SetZFocus 1.65 ===>> OK
+SetHV 9900.0 ===>> OK
+SetZSymmetry 3.35 ===>> OK
+SetExtractionLens 63.57 ===>> OK
+SetIonRepeller -5.15 ===>> OK
+SetElectronEnergy 125.02 ===>> OK
+SetYSymmetry 38.07 ===>> OK
+send trap current 250.0
+GetParameter Trap Current Readback ===>> 248.383080021974
+SetParameter Trap Current Set,250.0 ===>> OK
+updating mftable name argon_2CDD
+Using mftable located at /Users/obama/PychronDev/setupfiles/spectrometer/mftables/argon_2CDD.csv
+============ MFtable ===========
+Isotope  H2     AX(CDD)L2(CDD)
+Ar40     3.7665 --- ---
+Ar38     --- 3.7938 ---
+Ar36     --- --- 3.7666
+PHHCbs   --- 3.8089 ---
+================================
+get initial guess discrete
+get initial guess discrete
+get initial guess discrete
+======== Configuration Finished ========
+GetYSymmetry ===>> 38.07
+GetZSymmetry ===>> 3.35
+GetParameter Trap Current Readback ===>> 247.711774400293
+GetHighVoltage ===>> 9900
+start measurement
+do measurement
+L#=a-01-F analysis type=air
+Measurement Started felix_peak_hop_argon_2CDD_CDD_center.py
+14:28:39 -- ******* Measurement Started felix_peak_hop_argon_2CDD_CDD_center.py *******
+state changed from extraction to measurement
+setting trap, emission, spec, defl, and gains
+GetExtractionLens ===>> 63.57
+GetYSymmetry ===>> 38.07
+GetZSymmetry ===>> 3.35
+GetZFocus ===>> 1.65
+GetDeflection H2 (CDD) ===>> 0
+GetDeflection H1 (CDD) ===>> 0
+GetDeflection AX (CDD) ===>> 0
+GetDeflection L1 (CDD) ===>> 0
+GetDeflection L2 (CDD) ===>> 0
+GetGain H2 ===>> 0.9809305
+GetGain H1 ===>> 0.9706
+GetGain AX ===>> 0.01
+GetGain L1 ===>> 0.970094835296087
+GetGain L2 ===>> 0.967359864778375
+GetGain H2(CDD) ===>> 0
+GetGain H1(CDD) ===>> 0
+GetGain AX(CDD) ===>> 0
+GetGain L1(CDD) ===>> 0
+GetGain L2(CDD) ===>> 0
+GetParameter Trap Current Readback ===>> 247.823658670573
+GetParameter Source Current Readback ===>> 863.353537203198
+pre measurement save
+New frame /Users/obama/PychronDev/data/isotopes/4b/3661bc-0157-45c6-8347-1056cdac5b0e.h5
+flush and close file /Users/obama/PychronDev/data/isotopes/4b/3661bc-0157-45c6-8347-1056cdac5b0e.h5
+testing...
+no interpolation path defined
+molweights={'PHHCl': 38.13021421, 'Ar40': 39.9624, 'PM41': 41.0, 'Ar35': 35.0, 'Ar36': 35.9675, 'Ar37': 36.9668, 'PHHCbs': 38.9016474, 'Ar38': 37.9627, 'Ar39': 38.964, 'PM42': 42.0}
+setting detector H2 to PM42 (42.0624)
+setting detector H1 to PM41 (41.0624)
+setting detector AX to Ar40 (40.0624)
+setting detector L1 to Ar39 (39.0624)
+setting detector L2 to Ar38 (37.9624)
+setting detector H2(CDD) to PM42 (41.9624)
+setting detector H1(CDD) to PM41 (40.9624)
+setting detector AX(CDD) to Ar40 (39.9624)
+setting detector L1(CDD) to Ar39 (38.9624)
+setting detector L2(CDD) to Ar38 (38.0624)
+executed snippet estimated_duration=171.0, duration=0.0172688961029
+unknown measurement script
+activate_detectors ('H2', 'H1', 'AX', 'AX(CDD)', 'L1', 'L2(CDD)') {}
+activate detectors
+*************** Set Analysis View Ar/Ar
+create graphs
+clearing graphs
+creating plots for detectors [Detector(H2), Detector(H1), Detector(AX), Detector(AX(CDD)), Detector(L1), Detector(L2(CDD))]
+clear isotope group
+setting isotope det=H2, iso=PM42
+setting isotope det=H1, iso=PM41
+setting isotope det=AX, iso=Ar40
+setting isotope det=AX(CDD), iso=Ar40
+setting isotope det=L1, iso=Ar39
+setting isotope det=L2(CDD), iso=Ar38
+setting previous blanks
+ - setting Ar40 blank 3+/-8
+ - setting Ar36 blank -0.01+/-0.04
+ - setting Ar37 blank -0.0+/-0.5
+ - setting Ar38AX blank -0.06+/-0.06
+ - setting Ar38AX(CDD) blank 0.0011+/-0.0012
+ - setting Ar39 blank 0+/-6
+load analysis view
+set_spectrometer_configuration ('argon_2CDD',) {}
+======== Sending configuration ========
+SetDeflection H1(CDD),0.0 ===>> Error: could not set Deflection H1(CDD) Set to 0
+SetDeflection L2(CDD),0.0 ===>> Error: could not set Deflection L2(CDD) Set to 0
+SetDeflection L1(CDD),0.0 ===>> Error: could not set Deflection L1(CDD) Set to 0
+SetDeflection H2(CDD),600.0 ===>> Error: could not set Deflection H2(CDD) Set to 600
+SetZFocus 1.65 ===>> OK
+SetHV 9900.0 ===>> OK
+SetZSymmetry 3.35 ===>> OK
+SetExtractionLens 63.57 ===>> OK
+SetIonRepeller -5.15 ===>> OK
+SetElectronEnergy 125.02 ===>> OK
+SetYSymmetry 38.07 ===>> OK
+send trap current 250.0
+GetParameter Trap Current Readback ===>> 248.494964292254
+SetParameter Trap Current Set,250.0 ===>> OK
+updating mftable name argon_2CDD
+Using mftable located at /Users/obama/PychronDev/setupfiles/spectrometer/mftables/argon_2CDD.csv
+============ MFtable ===========
+Isotope  H2     AX(CDD)L2(CDD)
+Ar40     3.7665 --- ---
+Ar38     --- 3.7938 ---
+Ar36     --- --- 3.7666
+PHHCbs   --- 3.8089 ---
+================================
+get initial guess discrete
+get initial guess discrete
+get initial guess discrete
+======== Configuration Finished ========
+GetYSymmetry ===>> 38.07
+GetZSymmetry ===>> 3.35
+GetParameter Trap Current Readback ===>> 248.830617103095
+GetHighVoltage ===>> 9900
+position_magnet ('Ar40',) {'detector': 'H2'}
+detector Detector(H2)
+POSITION Ar40 H2
+molweights={'PHHCl': 38.13021421, 'Ar40': 39.9624, 'PM41': 41.0, 'Ar35': 35.0, 'Ar36': 35.9675, 'Ar37': 36.9668, 'PHHCbs': 38.9016474, 'Ar38': 37.9627, 'Ar39': 38.964, 'PM42': 42.0}
+setting detector H2 to Ar40 (39.9624)
+setting detector H1 to Ar39 (38.9624)
+setting detector AX to Ar38 (37.9624)
+setting detector L1 to Ar37 (36.9624)
+setting detector L2 to Ar36 (35.8624)
+setting detector H2(CDD) to Ar40 (39.8624)
+setting detector H1(CDD) to Ar39 (38.8624)
+setting detector AX(CDD) to Ar38 (37.8624)
+setting detector L1(CDD) to Ar37 (36.8624)
+setting detector L2(CDD) to Ar36 (35.9624)
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+H2 map mass to dac 39.9624 >> 3.76652
+GetHighVoltage ===>> 9900
+positioning Ar40 (3.76652) on H2
+setting magnet DAC
+current  : 3.808920
+requested: 3.766520
+Delta Dac: 0.042400
+Checking detector protection. dv=0.04240
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.76652 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+equilibrate () {'delay': 3, 'inlet': 'H', 'outlet': 'V', 'eqtime': 30.0}
+Equilibration Started
+14:28:40 -- ******* Equilibration Started *******
+checking ownership. requestor=192.168.2.137
+check software interlocks V
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close V ===>> OK
+update labels <pychron.experiment.plot_panel.PlotPanel object at 0x1300e7230>
+update labels "<pychron.graph.stacked_regression_graph.StackedRegressionGraph object at 0x14d6cf710>"
+setting label 0 H2 Ar40
+setting label 1 H1 Ar39
+setting label 2 AX Ar38
+setting label 3 AX(CDD) Ar38AX(CDD)
+setting label 4 L1 Ar37
+setting label 5 L2(CDD) Ar36
+update labels "<pychron.graph.stacked_graph.StackedGraph object at 0x14c7f56b0>"
+setting label 0 H2 Ar40
+setting label 1 H1 Ar39
+setting label 2 AX Ar38
+setting label 3 AX(CDD) Ar38AX(CDD)
+setting label 4 L1 Ar37
+setting label 5 L2(CDD) Ar36
+GetIndicatorState V ===>> False
+change switch state (True, True)
+14:28:40 -- CLOSE  VALVE-V (Felix Ion Pump)
+waiting 3s before opening inlet value ('H',)
+checking ownership. requestor=192.168.2.137
+check software interlocks H
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open H ===>> OK
+GetIndicatorState H ===>> OK
+change switch state (True, True)
+14:28:44 -- OPEN   VALVE-H (Felix Inlet)
+set_time_zero (0,) {}
+equilibrating for 30.0sec
+sniff (30.0,) {}
+py_sniff
+build tables- sniff [Detector(H2), Detector(H1), Detector(AX), Detector(AX(CDD)), Detector(L1), Detector(L2(CDD))]
+add group /sniff/Ar40 (Group) u'' table H2
+add group /sniff/Ar39 (Group) u'' table H1
+add group /sniff/Ar38 (Group) u'' table AX
+add group /sniff/Ar38 (Group) u'' table AX(CDD)
+add group /sniff/Ar37 (Group) u'' table L1
+add group /sniff/Ar36 (Group) u'' table L2(CDD)
+flush and close file /Users/obama/PychronDev/data/isotopes/4b/3661bc-0157-45c6-8347-1056cdac5b0e.h5
+measuring sniff. ncounts=30.0
+"sniff" increment series count="1" fit count="0" regressing="False"
+starting measurement
+measurement period (ms) = 1048.576
+14:29:09 -- collecting point 25
+Equilibration Finished
+14:29:14 -- ******* Equilibration Finished *******
+checking ownership. requestor=192.168.2.137
+check software interlocks H
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close H ===>> OK
+GetIndicatorState H ===>> False
+change switch state (True, True)
+14:29:14 -- CLOSE  VALVE-H (Felix Inlet)
+Post Equilibration Started felix_pump_extraction_line.py
+14:29:14 -- ******* Post Equilibration Started felix_pump_extraction_line.py *******
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000143051147461
+executed snippet estimated_duration=4.0, duration=0.00127387046814
+Pump after analysis
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.0001220703125
+Pump Bone
+close () {'description': 'Felix Inlet'}
+close name=--- desc=Felix Inlet
+checking ownership. requestor=192.168.2.137
+check software interlocks H
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close H ===>> OK
+GetIndicatorState H ===>> False
+change switch state (True, True)
+14:29:14 -- CLOSE  VALVE-H (Felix Inlet)
+-------------------------- close None (Felix Inlet) result=[(True, True)]
+action=close, ok=True, locked=[False]
+is_closed ('A',) {}
+is A () closed?
+is closed False
+close () {'description': 'CO2 Laser to Bone'}
+close name=--- desc=CO2 Laser to Bone
+checking ownership. requestor=192.168.2.137
+check software interlocks F
+interlocks []
+actuate state mode=None-script, software_lock=True
+VALVE-F(CO2 Laser to Bone) software locked
+change switch state (True, False)
+-------------------------- close None (CO2 Laser to Bone) result=[(True, False)]
+action=close, ok=True, locked=[True]
+sleep (1,) {}
+SLEEP 1.0
+close () {'description': 'CO2 Laser to Roughing'}
+close name=--- desc=CO2 Laser to Roughing
+checking ownership. requestor=192.168.2.137
+check software interlocks G
+interlocks []
+actuate state mode=None-script, software_lock=True
+VALVE-G(CO2 Laser to Roughing) software locked
+change switch state (True, False)
+-------------------------- close None (CO2 Laser to Roughing) result=[(True, False)]
+action=close, ok=True, locked=[True]
+open () {'description': 'Bone to Turbo'}
+open name=--- desc=Bone to Turbo
+checking ownership. requestor=192.168.2.137
+check software interlocks C
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open C ===>> OK
+GetIndicatorState C ===>> OK
+change switch state (True, True)
+14:29:16 -- OPEN   VALVE-C (Bone to Turbo)
+-------------------------- open None (Bone to Turbo) result=[(True, True)]
+waiting for write to finish
+measurement finished
+estimated time: 31.457 actual time: :31.568
+flush and close file /Users/obama/PychronDev/data/isotopes/4b/3661bc-0157-45c6-8347-1056cdac5b0e.h5
+set_spectrometer_configuration ('argon_2CDD',) {}
+======== Sending configuration ========
+caching configuration from /Users/obama/PychronDev/setupfiles/spectrometer/configurations/argon_2CDD.cfg
+SetDeflection H1(CDD),0.0 ===>> Error: could not set Deflection H1(CDD) Set to 0
+SetDeflection L2(CDD),0.0 ===>> Error: could not set Deflection L2(CDD) Set to 0
+SetDeflection L1(CDD),0.0 ===>> Error: could not set Deflection L1(CDD) Set to 0
+SetDeflection H2(CDD),600.0 ===>> Error: could not set Deflection H2(CDD) Set to 600
+SetZFocus 1.65 ===>> OK
+SetHV 9900.0 ===>> OK
+SetZSymmetry 3.35 ===>> OK
+SetExtractionLens 63.57 ===>> OK
+SetIonRepeller -5.15 ===>> OK
+SetElectronEnergy 125.02 ===>> OK
+SetYSymmetry 38.07 ===>> OK
+send trap current 250.0
+GetParameter Trap Current Readback ===>> 248.718732832815
+SetParameter Trap Current Set,250.0 ===>> OK
+updating mftable name argon_2CDD
+Using mftable located at /Users/obama/PychronDev/setupfiles/spectrometer/mftables/argon_2CDD.csv
+============ MFtable ===========
+Isotope  H2     AX(CDD)L2(CDD)
+Ar40     3.7665 --- ---
+Ar38     --- 3.7938 ---
+Ar36     --- --- 3.7666
+PHHCbs   --- 3.8089 ---
+================================
+get initial guess discrete
+get initial guess discrete
+get initial guess discrete
+======== Configuration Finished ========
+GetYSymmetry ===>> 38.07
+GetZSymmetry ===>> 3.35
+action=open, ok=True, locked=[False]
+GetParameter Trap Current Readback ===>> 248.047427211133
+open () {'description': 'Bone to Getter GP-50'}
+open name=--- desc=Bone to Getter GP-50
+checking ownership. requestor=192.168.2.137
+check software interlocks N
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+GetHighVoltage ===>> 9900
+load_hops ('hops/argon_2CDDF.yaml',) {}
+define_hops ([{'counts': 10, 'settle': 5, 'positioning': {'detector': 'H2', 'isotope': 'Ar40'}, 'cup_configuration': [{'protect': False, 'active': True, 'detector': 'H2', 'is_baseline': False, 'isotope': 'Ar40', 'deflection': 0}, {'protect': False, 'active': True, 'detector': 'H1', 'is_baseline': False, 'isotope': 'Ar39', 'deflection': 0}, {'protect': False, 'active': True, 'detector': 'AX', 'is_baseline': False, 'isotope': 'Ar38', 'deflection': 0}, {'protect': False, 'active': True, 'detector': 'L1', 'is_baseline': False, 'isotope': 'Ar37', 'deflection': 0}, {'protect': False, 'active': True, 'detector': 'L2(CDD)', 'is_baseline': False, 'isotope': 'Ar36', 'deflection': 0}]}, {'counts': 20, 'settle': 5, 'positioning': {'detector': 'AX(CDD)', 'isotope': 'Ar38', 'use_af_demag': False}, 'cup_configuration': [{'protect': False, 'active': True, 'detector': 'AX(CDD)', 'is_baseline': False, 'isotope': 'Ar38', 'deflection': 0}]}],) {}
+Open N ===>> OK
+set_fits () {}
+using default fits file=/Users/obama/PychronDev/scripts/measurement/fits/nominal.yaml
+GetIndicatorState N ===>> OK
+set "Ar40" to "('Parabolic', 'SEM')"
+change switch state (True, True)
+No fit for "Ar38AX". defaulting to linear. check the measurement script "felix_peak_hop_argon_2CDD_CDD_center.py"
+set "Ar38AX" to "linear"
+set "Ar36" to "('Parabolic', 'SEM')"
+set "Ar37" to "('linear', 'SEM')"
+No fit for "Ar38AX(CDD)". defaulting to linear. check the measurement script "felix_peak_hop_argon_2CDD_CDD_center.py"
+set "Ar38AX(CDD)" to "linear"
+set "Ar39" to "('Parabolic', 'SEM')"
+set_baseline_fits () {}
+using default fits file=/Users/obama/PychronDev/scripts/measurement/fits/nominal.yaml
+set "H2" to "('average', 'SEM')"
+set "AX" to "('average', 'SEM')"
+set "L2(CDD)" to "('average', 'SEM')"
+set "L1" to "('average', 'SEM')"
+set "AX(CDD)" to "('average', 'SEM')"
+set "H1" to "('average', 'SEM')"
+peak_hop () {'ncycles': 10, 'hops': [{'counts': 10, 'settle': 5, 'positioning': {'detector': 'H2', 'isotope': 'Ar40'}, 'cup_configuration': [{'protect': False, 'active': True, 'detector': 'H2', 'is_baseline': False, 'isotope': 'Ar40', 'deflection': 0}, {'protect': False, 'active': True, 'detector': 'H1', 'is_baseline': False, 'isotope': 'Ar39', 'deflection': 0}, {'protect': False, 'active': True, 'detector': 'AX', 'is_baseline': False, 'isotope': 'Ar38', 'deflection': 0}, {'protect': False, 'active': True, 'detector': 'L1', 'is_baseline': False, 'isotope': 'Ar37', 'deflection': 0}, {'protect': False, 'active': True, 'detector': 'L2(CDD)', 'is_baseline': False, 'isotope': 'Ar36', 'deflection': 0}]}, {'counts': 20, 'settle': 5, 'positioning': {'detector': 'AX(CDD)', 'isotope': 'Ar38', 'use_af_demag': False}, 'cup_configuration': [{'protect': False, 'active': True, 'detector': 'AX(CDD)', 'is_baseline': False, 'isotope': 'Ar38', 'deflection': 0}]}]}
+adding conditionals 
+make new hop generatior
+14:29:16 -- OPEN   VALVE-N (Bone to Getter GP-50)
+add group /signal/Ar40 (Group) u'' table H2
+-------------------------- open None (Bone to Getter GP-50) result=[(True, True)]
+add group /signal/Ar39 (Group) u'' table H1
+add group /signal/Ar38 (Group) u'' table AX
+add group /signal/Ar37 (Group) u'' table L1
+add group /signal/Ar36 (Group) u'' table L2(CDD)
+add group /signal/Ar38 (Group) u'' table AX(CDD)
+flush and close file /Users/obama/PychronDev/data/isotopes/4b/3661bc-0157-45c6-8347-1056cdac5b0e.h5
+measuring signal. ncounts=430.0
+"signal" increment series count="2" fit count="1" regressing="True"
+action=open, ok=True, locked=[False]
+open () {'description': 'Bone to Diode Laser'}
+open name=--- desc=Bone to Diode Laser
+checking ownership. requestor=192.168.2.137
+check software interlocks B
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open B ===>> OK
+GetIndicatorState B ===>> OK
+change switch state (True, True)
+14:29:17 -- OPEN   VALVE-B (Bone to Diode Laser)
+-------------------------- open None (Bone to Diode Laser) result=[(True, True)]
+starting measurement
+measurement period (ms) = 1048.576
+$$$$$$$$$$$$$$$$$ SETTING is_baseline False
+Peak hop Detectors=['H2', 'H1', 'AX', 'L1', 'L2(CDD)']
+Peak hop Deflections=[0, 0, 0, 0, 0]
+Peak hop DeflectionsPairs=[('H2', 0), ('H1', 0), ('AX', 0), ('L1', 0), ('L2(CDD)', 0)]
+SetDeflection L2 (CDD),0.0 ===>> OK
+----------------------- HOP Ar40 H2
+detector Detector(H2)
+POSITION Ar40 H2
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+H2 map mass to dac 39.9624 >> 3.76652
+GetHighVoltage ===>> 9900
+positioning Ar40 (3.76652) on H2
+setting magnet DAC
+current  : 3.766520
+requested: 3.766520
+Delta Dac: 0.000000
+Checking detector protection. dv=0.00000
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.76652 ===>> OK
+set_dac. change=False
+update detector isotope pairing
+detectors=['H2', 'H1', 'AX', 'L1', 'L2(CDD)']
+isotopes=['Ar40', 'Ar39', 'Ar38', 'Ar37', 'Ar36']
+updating pairing H2 - Ar40
+updating pairing H1 - Ar39
+updating pairing AX - Ar38
+updating pairing L1 - Ar37
+updating pairing L2(CDD) - Ar36
+action=open, ok=True, locked=[False]
+open () {'description': 'Bone to CO2 Laser'}
+open name=--- desc=Bone to CO2 Laser
+checking ownership. requestor=192.168.2.137
+check software interlocks D
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open D ===>> OK
+GetIndicatorState D ===>> OK
+change switch state (True, True)
+14:29:17 -- OPEN   VALVE-D (Bone to CO2 Laser)
+-------------------------- open None (Bone to CO2 Laser) result=[(True, True)]
+action=open, ok=True, locked=[False]
+sleep (1,) {}
+SLEEP 1.0
+set_resource () {'name': 'CO2PumpTimeFlag', 'value': 30}
+Set CO2PumpTimeFlag 30 ===>> OK
+release ('FelixCO2Flag',) {}
+release FelixCO2Flag
+Set FelixCO2Flag 0 ===>> OK
+executed snippet estimated_duration=6.0, duration=4.34587693214
+PumpBone.py completed successfully
+gosub finished
+get_resource_value () {'name': 'FelixMiniboneFlag'}
+Read FelixMiniboneFlag ===>> 1
+Get Resource Value FelixMiniboneFlag=1.0
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=2.69412994385e-05
+get_resource_value () {'name': 'FelixMiniboneFlag'}
+Read FelixMiniboneFlag ===>> 1
+Get Resource Value FelixMiniboneFlag=1.0
+Pump minibone
+open () {'description': 'Bone to Minibone'}
+open name=--- desc=Bone to Minibone
+checking ownership. requestor=192.168.2.137
+check software interlocks E
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open E ===>> OK
+GetIndicatorState E ===>> OK
+change switch state (True, True)
+14:29:18 -- OPEN   VALVE-E (Bone to Minibone)
+-------------------------- open None (Bone to Minibone) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Minibone to Turbo'}
+open name=--- desc=Minibone to Turbo
+checking ownership. requestor=192.168.2.137
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open P ===>> OK
+GetIndicatorState P ===>> OK
+change switch state (True, True)
+14:29:19 -- OPEN   VALVE-P (Minibone to Turbo)
+-------------------------- open None (Minibone to Turbo) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Quad Inlet'}
+open name=--- desc=Quad Inlet
+checking ownership. requestor=192.168.2.137
+check software interlocks Q
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open Q ===>> OK
+GetIndicatorState Q ===>> OK
+change switch state (True, True)
+14:29:20 -- OPEN   VALVE-Q (Quad Inlet)
+-------------------------- open None (Quad Inlet) result=[(True, True)]
+action=open, ok=True, locked=[False]
+close () {'description': 'Minibone to Bone'}
+close name=--- desc=Minibone to Bone
+checking ownership. requestor=192.168.2.137
+check software interlocks I
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close I ===>> OK
+GetIndicatorState I ===>> False
+change switch state (True, True)
+14:29:20 -- CLOSE  VALVE-I (Minibone to Bone)
+-------------------------- close None (Minibone to Bone) result=[(True, True)]
+action=close, ok=True, locked=[False]
+set_resource () {'name': 'MinibonePumpTimeFlag', 'value': 30}
+Set MinibonePumpTimeFlag 30 ===>> OK
+release ('FelixMiniboneFlag',) {}
+release FelixMiniboneFlag
+Set FelixMiniboneFlag 0 ===>> OK
+executed snippet estimated_duration=0, duration=2.29269790649
+PumpMinibone.py completed successfully
+gosub finished
+executed snippet estimated_duration=4.0, duration=6.64836597443
+felix_pump_extraction_line.py completed successfully
+Post Equilibration Finished
+14:29:21 -- ******* Post Equilibration Finished *******
+$$$$$$$$$$$$$$$$$ SETTING is_baseline False
+Peak hop Detectors=['AX(CDD)']
+Peak hop Deflections=[0]
+Peak hop DeflectionsPairs=[('AX(CDD)', 0)]
+SetDeflection AX (CDD),0.0 ===>> OK
+----------------------- HOP Ar38 AX(CDD)
+detector Detector(AX(CDD))
+POSITION Ar38 AX(CDD)
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+AX(CDD) map mass to dac 37.9627 >> 3.79384
+GetDeflection AX (CDD) ===>> 0
+GetHighVoltage ===>> 9900
+positioning Ar38 (3.79384) on AX(CDD)
+setting magnet DAC
+current  : 3.766520
+requested: 3.793840
+Delta Dac: 0.027320
+Checking detector protection. dv=0.02732
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.79384 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+update detector isotope pairing
+detectors=['AX(CDD)']
+isotopes=['Ar38']
+updating pairing AX(CDD) - Ar38
+Join finished
+delaying 5 for detectors to settle after peak hop
+no intensity change cnt= 0
+signals=[ 0.43706653  0.         -0.01357052  0.04393139  0.0156745  -0.06906112]
+prev_signals=[ 0.43706653  0.         -0.01357052  0.04393139  0.0156745  -0.06906112]
+resetting no_intensity_change_cnt
+signals=[ 0.41948942  0.          0.08083425 -0.15096441 -0.07316596  0.00495762]
+prev_signals=[ 0.43706653  0.         -0.01357052  0.04393139  0.0156745  -0.06906112]
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+$$$$$$$$$$$$$$$$$ SETTING is_baseline False
+Peak hop Detectors=['H2', 'H1', 'AX', 'L1', 'L2(CDD)']
+Peak hop Deflections=[0, 0, 0, 0, 0]
+Peak hop DeflectionsPairs=[('H2', 0), ('H1', 0), ('AX', 0), ('L1', 0), ('L2(CDD)', 0)]
+SetDeflection L2 (CDD),0.0 ===>> OK
+----------------------- HOP Ar40 H2
+detector Detector(H2)
+POSITION Ar40 H2
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+H2 map mass to dac 39.9624 >> 3.76652
+GetHighVoltage ===>> 9900
+positioning Ar40 (3.76652) on H2
+setting magnet DAC
+current  : 3.793840
+requested: 3.766520
+Delta Dac: 0.027320
+Checking detector protection. dv=0.02732
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.76652 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+update detector isotope pairing
+detectors=['H2', 'H1', 'AX', 'L1', 'L2(CDD)']
+isotopes=['Ar40', 'Ar39', 'Ar38', 'Ar37', 'Ar36']
+updating pairing H2 - Ar40
+updating pairing H1 - Ar39
+updating pairing AX - Ar38
+updating pairing L1 - Ar37
+updating pairing L2(CDD) - Ar36
+Join finished
+delaying 5 for detectors to settle after peak hop
+no intensity change cnt= 0
+signals=[  0.00000000e+00   2.20368603e+00   6.63273235e+02  -3.99965132e-02
+   3.24354827e-01  -2.44977008e-01]
+prev_signals=[  0.00000000e+00   2.20368603e+00   6.63273235e+02  -3.99965132e-02
+   3.24354827e-01  -2.44977008e-01]
+resetting no_intensity_change_cnt
+signals=[  0.00000000e+00   2.24571499e+00   6.62643321e+02   1.13183154e-01
+   3.68556015e-01  -1.47570128e-01]
+prev_signals=[  0.00000000e+00   2.20368603e+00   6.63273235e+02  -3.99965132e-02
+   3.24354827e-01  -2.44977008e-01]
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+$$$$$$$$$$$$$$$$$ SETTING is_baseline False
+Peak hop Detectors=['AX(CDD)']
+Peak hop Deflections=[0]
+Peak hop DeflectionsPairs=[('AX(CDD)', 0)]
+SetDeflection AX (CDD),0.0 ===>> OK
+----------------------- HOP Ar38 AX(CDD)
+detector Detector(AX(CDD))
+POSITION Ar38 AX(CDD)
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+AX(CDD) map mass to dac 37.9627 >> 3.79384
+GetDeflection AX (CDD) ===>> 0
+GetHighVoltage ===>> 9900
+positioning Ar38 (3.79384) on AX(CDD)
+setting magnet DAC
+current  : 3.766520
+requested: 3.793840
+Delta Dac: 0.027320
+Checking detector protection. dv=0.02732
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.79384 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+update detector isotope pairing
+detectors=['AX(CDD)']
+isotopes=['Ar38']
+updating pairing AX(CDD) - Ar38
+Join finished
+delaying 5 for detectors to settle after peak hop
+no intensity change cnt= 0
+signals=[ 0.42025364  0.         -0.08652402 -0.08947127 -0.01911758 -0.21224017]
+prev_signals=[ 0.42025364  0.         -0.08652402 -0.08947127 -0.01911758 -0.21224017]
+resetting no_intensity_change_cnt
+signals=[ 0.41031884  0.         -0.24674622 -0.05791406 -0.08210251 -0.01660294]
+prev_signals=[ 0.42025364  0.         -0.08652402 -0.08947127 -0.01911758 -0.21224017]
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+14:30:22 -- collecting point 50
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+$$$$$$$$$$$$$$$$$ SETTING is_baseline False
+Peak hop Detectors=['H2', 'H1', 'AX', 'L1', 'L2(CDD)']
+Peak hop Deflections=[0, 0, 0, 0, 0]
+Peak hop DeflectionsPairs=[('H2', 0), ('H1', 0), ('AX', 0), ('L1', 0), ('L2(CDD)', 0)]
+SetDeflection L2 (CDD),0.0 ===>> OK
+----------------------- HOP Ar40 H2
+detector Detector(H2)
+POSITION Ar40 H2
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+H2 map mass to dac 39.9624 >> 3.76652
+GetHighVoltage ===>> 9900
+positioning Ar40 (3.76652) on H2
+setting magnet DAC
+current  : 3.793840
+requested: 3.766520
+Delta Dac: 0.027320
+Checking detector protection. dv=0.02732
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.76652 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+update detector isotope pairing
+detectors=['H2', 'H1', 'AX', 'L1', 'L2(CDD)']
+isotopes=['Ar40', 'Ar39', 'Ar38', 'Ar37', 'Ar36']
+updating pairing H2 - Ar40
+updating pairing H1 - Ar39
+updating pairing AX - Ar38
+updating pairing L1 - Ar37
+updating pairing L2(CDD) - Ar36
+Join finished
+delaying 5 for detectors to settle after peak hop
+no intensity change cnt= 0
+signals=[  0.00000000e+00   2.23320251e+00   6.60068039e+02  -1.28309497e-01
+   2.76227408e-01  -1.27395880e-01]
+prev_signals=[  0.00000000e+00   2.23320251e+00   6.60068039e+02  -1.28309497e-01
+   2.76227408e-01  -1.27395880e-01]
+resetting no_intensity_change_cnt
+signals=[  0.00000000e+00   2.22903169e+00   6.59231328e+02   5.76888588e-02
+   3.68136146e-01  -1.02379228e-01]
+prev_signals=[  0.00000000e+00   2.23320251e+00   6.60068039e+02  -1.28309497e-01
+   2.76227408e-01  -1.27395880e-01]
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+$$$$$$$$$$$$$$$$$ SETTING is_baseline False
+Peak hop Detectors=['AX(CDD)']
+Peak hop Deflections=[0]
+Peak hop DeflectionsPairs=[('AX(CDD)', 0)]
+SetDeflection AX (CDD),0.0 ===>> OK
+----------------------- HOP Ar38 AX(CDD)
+detector Detector(AX(CDD))
+POSITION Ar38 AX(CDD)
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+AX(CDD) map mass to dac 37.9627 >> 3.79384
+GetDeflection AX (CDD) ===>> 0
+GetHighVoltage ===>> 9900
+positioning Ar38 (3.79384) on AX(CDD)
+setting magnet DAC
+current  : 3.766520
+requested: 3.793840
+Delta Dac: 0.027320
+Checking detector protection. dv=0.02732
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.79384 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+update detector isotope pairing
+detectors=['AX(CDD)']
+isotopes=['Ar38']
+updating pairing AX(CDD) - Ar38
+Join finished
+delaying 5 for detectors to settle after peak hop
+no intensity change cnt= 0
+signals=[ 0.42835437  0.         -0.03384887 -0.07791197 -0.12613749 -0.26803046]
+prev_signals=[ 0.42835437  0.         -0.03384887 -0.07791197 -0.12613749 -0.26803046]
+resetting no_intensity_change_cnt
+signals=[ 0.41429275  0.         -0.20887789 -0.10276429 -0.05968879 -0.03458892]
+prev_signals=[ 0.42835437  0.         -0.03384887 -0.07791197 -0.12613749 -0.26803046]
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+set states for children of O. state=True
+refresh_canvas_needed fired
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+$$$$$$$$$$$$$$$$$ SETTING is_baseline False
+Peak hop Detectors=['H2', 'H1', 'AX', 'L1', 'L2(CDD)']
+Peak hop Deflections=[0, 0, 0, 0, 0]
+Peak hop DeflectionsPairs=[('H2', 0), ('H1', 0), ('AX', 0), ('L1', 0), ('L2(CDD)', 0)]
+SetDeflection L2 (CDD),0.0 ===>> OK
+----------------------- HOP Ar40 H2
+detector Detector(H2)
+POSITION Ar40 H2
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+H2 map mass to dac 39.9624 >> 3.76652
+GetHighVoltage ===>> 9900
+positioning Ar40 (3.76652) on H2
+setting magnet DAC
+current  : 3.793840
+requested: 3.766520
+Delta Dac: 0.027320
+Checking detector protection. dv=0.02732
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.76652 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+update detector isotope pairing
+detectors=['H2', 'H1', 'AX', 'L1', 'L2(CDD)']
+isotopes=['Ar40', 'Ar39', 'Ar38', 'Ar37', 'Ar36']
+updating pairing H2 - Ar40
+updating pairing H1 - Ar39
+updating pairing AX - Ar38
+updating pairing L1 - Ar37
+updating pairing L2(CDD) - Ar36
+Join finished
+delaying 5 for detectors to settle after peak hop
+no intensity change cnt= 0
+signals=[  0.00000000e+00   2.20753599e+00   6.56920858e+02   6.79781864e-02
+   3.14110093e-01  -1.69588399e-01]
+prev_signals=[  0.00000000e+00   2.20753599e+00   6.56920858e+02   6.79781864e-02
+   3.14110093e-01  -1.69588399e-01]
+resetting no_intensity_change_cnt
+signals=[  0.00000000e+00   2.21379219e+00   6.56436992e+02  -9.06271915e-02
+   3.57781593e-01  -1.96793528e-01]
+prev_signals=[  0.00000000e+00   2.20753599e+00   6.56920858e+02   6.79781864e-02
+   3.14110093e-01  -1.69588399e-01]
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+14:31:29 -- collecting point 100
+$$$$$$$$$$$$$$$$$ SETTING is_baseline False
+Peak hop Detectors=['AX(CDD)']
+Peak hop Deflections=[0]
+Peak hop DeflectionsPairs=[('AX(CDD)', 0)]
+SetDeflection AX (CDD),0.0 ===>> OK
+----------------------- HOP Ar38 AX(CDD)
+detector Detector(AX(CDD))
+POSITION Ar38 AX(CDD)
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+AX(CDD) map mass to dac 37.9627 >> 3.79384
+GetDeflection AX (CDD) ===>> 0
+GetHighVoltage ===>> 9900
+positioning Ar38 (3.79384) on AX(CDD)
+setting magnet DAC
+current  : 3.766520
+requested: 3.793840
+Delta Dac: 0.027320
+Checking detector protection. dv=0.02732
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.79384 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+update detector isotope pairing
+detectors=['AX(CDD)']
+isotopes=['Ar38']
+updating pairing AX(CDD) - Ar38
+Join finished
+delaying 5 for detectors to settle after peak hop
+no intensity change cnt= 0
+signals=[ 0.41612687  0.          0.08013493  0.1128363   0.00421234 -0.0925799 ]
+prev_signals=[ 0.41612687  0.          0.08013493  0.1128363   0.00421234 -0.0925799 ]
+resetting no_intensity_change_cnt
+signals=[ 0.41230579  0.         -0.07848308  0.03491399 -0.05096504 -0.18319106]
+prev_signals=[ 0.41612687  0.          0.08013493  0.1128363   0.00421234 -0.0925799 ]
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+$$$$$$$$$$$$$$$$$ SETTING is_baseline False
+Peak hop Detectors=['H2', 'H1', 'AX', 'L1', 'L2(CDD)']
+Peak hop Deflections=[0, 0, 0, 0, 0]
+Peak hop DeflectionsPairs=[('H2', 0), ('H1', 0), ('AX', 0), ('L1', 0), ('L2(CDD)', 0)]
+SetDeflection L2 (CDD),0.0 ===>> OK
+----------------------- HOP Ar40 H2
+detector Detector(H2)
+POSITION Ar40 H2
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+H2 map mass to dac 39.9624 >> 3.76652
+GetHighVoltage ===>> 9900
+positioning Ar40 (3.76652) on H2
+setting magnet DAC
+current  : 3.793840
+requested: 3.766520
+Delta Dac: 0.027320
+Checking detector protection. dv=0.02732
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.76652 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+update detector isotope pairing
+detectors=['H2', 'H1', 'AX', 'L1', 'L2(CDD)']
+isotopes=['Ar40', 'Ar39', 'Ar38', 'Ar37', 'Ar36']
+updating pairing H2 - Ar40
+updating pairing H1 - Ar39
+updating pairing AX - Ar38
+updating pairing L1 - Ar37
+updating pairing L2(CDD) - Ar36
+Join finished
+delaying 5 for detectors to settle after peak hop
+no intensity change cnt= 0
+signals=[  0.00000000e+00   2.15363682e+00   6.53438147e+02  -6.18443217e-02
+   2.81088470e-01  -1.44111715e-01]
+prev_signals=[  0.00000000e+00   2.15363682e+00   6.53438147e+02  -6.18443217e-02
+   2.81088470e-01  -1.44111715e-01]
+resetting no_intensity_change_cnt
+signals=[  0.00000000e+00   2.18042590e+00   6.53871428e+02  -7.49065331e-02
+   3.10004241e-01  -1.52527164e-01]
+prev_signals=[  0.00000000e+00   2.15363682e+00   6.53438147e+02  -6.18443217e-02
+   2.81088470e-01  -1.44111715e-01]
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+$$$$$$$$$$$$$$$$$ SETTING is_baseline False
+Peak hop Detectors=['AX(CDD)']
+Peak hop Deflections=[0]
+Peak hop DeflectionsPairs=[('AX(CDD)', 0)]
+SetDeflection AX (CDD),0.0 ===>> OK
+----------------------- HOP Ar38 AX(CDD)
+detector Detector(AX(CDD))
+POSITION Ar38 AX(CDD)
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+AX(CDD) map mass to dac 37.9627 >> 3.79384
+GetDeflection AX (CDD) ===>> 0
+GetHighVoltage ===>> 9900
+positioning Ar38 (3.79384) on AX(CDD)
+setting magnet DAC
+current  : 3.766520
+requested: 3.793840
+Delta Dac: 0.027320
+Checking detector protection. dv=0.02732
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.79384 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+update detector isotope pairing
+detectors=['AX(CDD)']
+isotopes=['Ar38']
+updating pairing AX(CDD) - Ar38
+set states for children of U. state=False
+refresh_canvas_needed fired
+Join finished
+delaying 5 for detectors to settle after peak hop
+no intensity change cnt= 0
+signals=[ 0.41597402  0.          0.10484482  0.1983962  -0.04334094 -0.08197346]
+prev_signals=[ 0.41597402  0.          0.10484482  0.1983962  -0.04334094 -0.08197346]
+resetting no_intensity_change_cnt
+signals=[ 0.42147638  0.          0.06043739  0.00543463 -0.04440553 -0.15356468]
+prev_signals=[ 0.41597402  0.          0.10484482  0.1983962  -0.04334094 -0.08197346]
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+14:32:36 -- collecting point 150
+$$$$$$$$$$$$$$$$$ SETTING is_baseline False
+Peak hop Detectors=['H2', 'H1', 'AX', 'L1', 'L2(CDD)']
+Peak hop Deflections=[0, 0, 0, 0, 0]
+Peak hop DeflectionsPairs=[('H2', 0), ('H1', 0), ('AX', 0), ('L1', 0), ('L2(CDD)', 0)]
+SetDeflection L2 (CDD),0.0 ===>> OK
+----------------------- HOP Ar40 H2
+detector Detector(H2)
+POSITION Ar40 H2
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+H2 map mass to dac 39.9624 >> 3.76652
+GetHighVoltage ===>> 9900
+positioning Ar40 (3.76652) on H2
+setting magnet DAC
+current  : 3.793840
+requested: 3.766520
+Delta Dac: 0.027320
+Checking detector protection. dv=0.02732
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.76652 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+update detector isotope pairing
+detectors=['H2', 'H1', 'AX', 'L1', 'L2(CDD)']
+isotopes=['Ar40', 'Ar39', 'Ar38', 'Ar37', 'Ar36']
+updating pairing H2 - Ar40
+updating pairing H1 - Ar39
+updating pairing AX - Ar38
+updating pairing L1 - Ar37
+updating pairing L2(CDD) - Ar36
+Join finished
+delaying 5 for detectors to settle after peak hop
+no intensity change cnt= 0
+signals=[  0.00000000e+00   2.15010773e+00   6.50027598e+02   1.78855503e-01
+   2.44153371e-01   5.81116302e-02]
+prev_signals=[  0.00000000e+00   2.15010773e+00   6.50027598e+02   1.78855503e-01
+   2.44153371e-01   5.81116302e-02]
+resetting no_intensity_change_cnt
+signals=[  0.00000000e+00   2.18844662e+00   6.50201350e+02   1.23704305e-01
+   2.68722911e-01  -6.60635834e-02]
+prev_signals=[  0.00000000e+00   2.15010773e+00   6.50027598e+02   1.78855503e-01
+   2.44153371e-01   5.81116302e-02]
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+$$$$$$$$$$$$$$$$$ SETTING is_baseline False
+Peak hop Detectors=['AX(CDD)']
+Peak hop Deflections=[0]
+Peak hop DeflectionsPairs=[('AX(CDD)', 0)]
+SetDeflection AX (CDD),0.0 ===>> OK
+----------------------- HOP Ar38 AX(CDD)
+detector Detector(AX(CDD))
+POSITION Ar38 AX(CDD)
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+AX(CDD) map mass to dac 37.9627 >> 3.79384
+GetDeflection AX (CDD) ===>> 0
+GetHighVoltage ===>> 9900
+positioning Ar38 (3.79384) on AX(CDD)
+setting magnet DAC
+current  : 3.766520
+requested: 3.793840
+Delta Dac: 0.027320
+Checking detector protection. dv=0.02732
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.79384 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+update detector isotope pairing
+detectors=['AX(CDD)']
+isotopes=['Ar38']
+updating pairing AX(CDD) - Ar38
+Join finished
+delaying 5 for detectors to settle after peak hop
+no intensity change cnt= 0
+signals=[ 0.40970747  0.         -0.06904364  0.15260915 -0.11373356 -0.22814764]
+prev_signals=[ 0.40970747  0.         -0.06904364  0.15260915 -0.11373356 -0.22814764]
+resetting no_intensity_change_cnt
+signals=[ 0.40344095  0.          0.11894839  0.04774647 -0.07230992 -0.20543907]
+prev_signals=[ 0.40970747  0.         -0.06904364  0.15260915 -0.11373356 -0.22814764]
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+$$$$$$$$$$$$$$$$$ SETTING is_baseline False
+Peak hop Detectors=['H2', 'H1', 'AX', 'L1', 'L2(CDD)']
+Peak hop Deflections=[0, 0, 0, 0, 0]
+Peak hop DeflectionsPairs=[('H2', 0), ('H1', 0), ('AX', 0), ('L1', 0), ('L2(CDD)', 0)]
+SetDeflection L2 (CDD),0.0 ===>> OK
+----------------------- HOP Ar40 H2
+detector Detector(H2)
+POSITION Ar40 H2
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+H2 map mass to dac 39.9624 >> 3.76652
+GetHighVoltage ===>> 9900
+positioning Ar40 (3.76652) on H2
+setting magnet DAC
+current  : 3.793840
+requested: 3.766520
+Delta Dac: 0.027320
+Checking detector protection. dv=0.02732
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.76652 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+update detector isotope pairing
+detectors=['H2', 'H1', 'AX', 'L1', 'L2(CDD)']
+isotopes=['Ar40', 'Ar39', 'Ar38', 'Ar37', 'Ar36']
+updating pairing H2 - Ar40
+updating pairing H1 - Ar39
+updating pairing AX - Ar38
+updating pairing L1 - Ar37
+updating pairing L2(CDD) - Ar36
+Join finished
+delaying 5 for detectors to settle after peak hop
+no intensity change cnt= 0
+signals=[  0.00000000e+00   2.13037697e+00   6.47694802e+02  -1.29234198e-01
+   2.83077680e-01  -1.17250956e-01]
+prev_signals=[  0.00000000e+00   2.13037697e+00   6.47694802e+02  -1.29234198e-01
+   2.83077680e-01  -1.17250956e-01]
+set states for children of O. state=False
+refresh_canvas_needed fired
+resetting no_intensity_change_cnt
+signals=[  0.00000000e+00   2.15187227e+00   6.47355953e+02   1.14460369e-02
+   3.50387533e-01  -2.95159874e-02]
+prev_signals=[  0.00000000e+00   2.13037697e+00   6.47694802e+02  -1.29234198e-01
+   2.83077680e-01  -1.17250956e-01]
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+set states for children of R. state=True
+refresh_canvas_needed fired
+$$$$$$$$$$$$$$$$$ SETTING is_baseline False
+Peak hop Detectors=['AX(CDD)']
+Peak hop Deflections=[0]
+Peak hop DeflectionsPairs=[('AX(CDD)', 0)]
+SetDeflection AX (CDD),0.0 ===>> OK
+----------------------- HOP Ar38 AX(CDD)
+detector Detector(AX(CDD))
+POSITION Ar38 AX(CDD)
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+AX(CDD) map mass to dac 37.9627 >> 3.79384
+GetDeflection AX (CDD) ===>> 0
+GetHighVoltage ===>> 9900
+positioning Ar38 (3.79384) on AX(CDD)
+setting magnet DAC
+current  : 3.766520
+requested: 3.793840
+Delta Dac: 0.027320
+Checking detector protection. dv=0.02732
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.79384 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+update detector isotope pairing
+detectors=['AX(CDD)']
+isotopes=['Ar38']
+updating pairing AX(CDD) - Ar38
+set states for children of R. state=False
+refresh_canvas_needed fired
+Join finished
+delaying 5 for detectors to settle after peak hop
+no intensity change cnt= 0
+signals=[ 0.39411764  0.         -0.05272834  0.08925085 -0.03349504 -0.31436623]
+prev_signals=[ 0.39411764  0.         -0.05272834  0.08925085 -0.03349504 -0.31436623]
+resetting no_intensity_change_cnt
+signals=[ 0.39916139  0.         -0.09444835 -0.22967457 -0.05145009 -0.18422854]
+prev_signals=[ 0.39411764  0.         -0.05272834  0.08925085 -0.03349504 -0.31436623]
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+set states for children of U. state=True
+refresh_canvas_needed fired
+14:33:47 -- collecting point 200
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+$$$$$$$$$$$$$$$$$ SETTING is_baseline False
+Peak hop Detectors=['H2', 'H1', 'AX', 'L1', 'L2(CDD)']
+Peak hop Deflections=[0, 0, 0, 0, 0]
+Peak hop DeflectionsPairs=[('H2', 0), ('H1', 0), ('AX', 0), ('L1', 0), ('L2(CDD)', 0)]
+SetDeflection L2 (CDD),0.0 ===>> OK
+----------------------- HOP Ar40 H2
+detector Detector(H2)
+POSITION Ar40 H2
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+H2 map mass to dac 39.9624 >> 3.76652
+GetHighVoltage ===>> 9900
+positioning Ar40 (3.76652) on H2
+setting magnet DAC
+current  : 3.793840
+requested: 3.766520
+Delta Dac: 0.027320
+Checking detector protection. dv=0.02732
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.76652 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+update detector isotope pairing
+detectors=['H2', 'H1', 'AX', 'L1', 'L2(CDD)']
+isotopes=['Ar40', 'Ar39', 'Ar38', 'Ar37', 'Ar36']
+updating pairing H2 - Ar40
+updating pairing H1 - Ar39
+updating pairing AX - Ar38
+updating pairing L1 - Ar37
+updating pairing L2(CDD) - Ar36
+Join finished
+delaying 5 for detectors to settle after peak hop
+no intensity change cnt= 0
+signals=[  0.00000000e+00   2.13984131e+00   6.45189706e+02   3.09635336e-01
+   2.95009228e-01  -1.25090225e-01]
+prev_signals=[  0.00000000e+00   2.13984131e+00   6.45189706e+02   3.09635336e-01
+   2.95009228e-01  -1.25090225e-01]
+resetting no_intensity_change_cnt
+signals=[  0.00000000e+00   2.12027101e+00   6.44219068e+02   1.32957074e-02
+   3.10622848e-01  -6.62941632e-02]
+prev_signals=[  0.00000000e+00   2.13984131e+00   6.45189706e+02   3.09635336e-01
+   2.95009228e-01  -1.25090225e-01]
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+$$$$$$$$$$$$$$$$$ SETTING is_baseline False
+Peak hop Detectors=['AX(CDD)']
+Peak hop Deflections=[0]
+Peak hop DeflectionsPairs=[('AX(CDD)', 0)]
+SetDeflection AX (CDD),0.0 ===>> OK
+----------------------- HOP Ar38 AX(CDD)
+detector Detector(AX(CDD))
+POSITION Ar38 AX(CDD)
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+AX(CDD) map mass to dac 37.9627 >> 3.79384
+GetDeflection AX (CDD) ===>> 0
+GetHighVoltage ===>> 9900
+positioning Ar38 (3.79384) on AX(CDD)
+setting magnet DAC
+current  : 3.766520
+requested: 3.793840
+Delta Dac: 0.027320
+Checking detector protection. dv=0.02732
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.79384 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+update detector isotope pairing
+detectors=['AX(CDD)']
+isotopes=['Ar38']
+updating pairing AX(CDD) - Ar38
+Join finished
+delaying 5 for detectors to settle after peak hop
+no intensity change cnt= 0
+signals=[ 0.41368138  0.         -0.16926021 -0.11513242 -0.04779476 -0.00726394]
+prev_signals=[ 0.41368138  0.         -0.16926021 -0.11513242 -0.04779476 -0.00726394]
+resetting no_intensity_change_cnt
+signals=[ 0.41413991  0.         -0.0367624  -0.01144334 -0.11205368 -0.12889455]
+prev_signals=[ 0.41368138  0.         -0.16926021 -0.11513242 -0.04779476 -0.00726394]
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+$$$$$$$$$$$$$$$$$ SETTING is_baseline False
+Peak hop Detectors=['H2', 'H1', 'AX', 'L1', 'L2(CDD)']
+Peak hop Deflections=[0, 0, 0, 0, 0]
+Peak hop DeflectionsPairs=[('H2', 0), ('H1', 0), ('AX', 0), ('L1', 0), ('L2(CDD)', 0)]
+SetDeflection L2 (CDD),0.0 ===>> OK
+----------------------- HOP Ar40 H2
+detector Detector(H2)
+POSITION Ar40 H2
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+H2 map mass to dac 39.9624 >> 3.76652
+GetHighVoltage ===>> 9900
+positioning Ar40 (3.76652) on H2
+setting magnet DAC
+current  : 3.793840
+requested: 3.766520
+Delta Dac: 0.027320
+Checking detector protection. dv=0.02732
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.76652 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+update detector isotope pairing
+detectors=['H2', 'H1', 'AX', 'L1', 'L2(CDD)']
+isotopes=['Ar40', 'Ar39', 'Ar38', 'Ar37', 'Ar36']
+updating pairing H2 - Ar40
+updating pairing H1 - Ar39
+updating pairing AX - Ar38
+updating pairing L1 - Ar37
+updating pairing L2(CDD) - Ar36
+Join finished
+delaying 5 for detectors to settle after peak hop
+no intensity change cnt= 0
+signals=[  0.00000000e+00   2.13021656e+00   6.42027281e+02   1.36306714e-01
+   3.04353714e-01  -9.86900820e-02]
+prev_signals=[  0.00000000e+00   2.13021656e+00   6.42027281e+02   1.36306714e-01
+   3.04353714e-01  -9.86900820e-02]
+resetting no_intensity_change_cnt
+signals=[  0.00000000e+00   2.12428131e+00   6.41667971e+02  -1.11664733e-01
+   2.79502267e-01  -1.07105926e-01]
+prev_signals=[  0.00000000e+00   2.13021656e+00   6.42027281e+02   1.36306714e-01
+   3.04353714e-01  -9.86900820e-02]
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+14:34:54 -- collecting point 250
+$$$$$$$$$$$$$$$$$ SETTING is_baseline False
+Peak hop Detectors=['AX(CDD)']
+Peak hop Deflections=[0]
+Peak hop DeflectionsPairs=[('AX(CDD)', 0)]
+SetDeflection AX (CDD),0.0 ===>> OK
+----------------------- HOP Ar38 AX(CDD)
+detector Detector(AX(CDD))
+POSITION Ar38 AX(CDD)
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+AX(CDD) map mass to dac 37.9627 >> 3.79384
+GetDeflection AX (CDD) ===>> 0
+GetHighVoltage ===>> 9900
+positioning Ar38 (3.79384) on AX(CDD)
+setting magnet DAC
+current  : 3.766520
+requested: 3.793840
+Delta Dac: 0.027320
+Checking detector protection. dv=0.02732
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.79384 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+update detector isotope pairing
+detectors=['AX(CDD)']
+isotopes=['Ar38']
+updating pairing AX(CDD) - Ar38
+Join finished
+delaying 5 for detectors to settle after peak hop
+no intensity change cnt= 0
+signals=[ 0.42285198  0.         -0.24243513  0.04901816 -0.03863389 -0.31574935]
+prev_signals=[ 0.42285198  0.         -0.24243513  0.04901816 -0.03863389 -0.31574935]
+resetting no_intensity_change_cnt
+signals=[ 0.40558073  0.         -0.00669443  0.09144751  0.00260103  0.12037818]
+prev_signals=[ 0.42285198  0.         -0.24243513  0.04901816 -0.03863389 -0.31574935]
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+$$$$$$$$$$$$$$$$$ SETTING is_baseline False
+Peak hop Detectors=['H2', 'H1', 'AX', 'L1', 'L2(CDD)']
+Peak hop Deflections=[0, 0, 0, 0, 0]
+Peak hop DeflectionsPairs=[('H2', 0), ('H1', 0), ('AX', 0), ('L1', 0), ('L2(CDD)', 0)]
+SetDeflection L2 (CDD),0.0 ===>> OK
+----------------------- HOP Ar40 H2
+detector Detector(H2)
+POSITION Ar40 H2
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+H2 map mass to dac 39.9624 >> 3.76652
+GetHighVoltage ===>> 9900
+positioning Ar40 (3.76652) on H2
+setting magnet DAC
+current  : 3.793840
+requested: 3.766520
+Delta Dac: 0.027320
+Checking detector protection. dv=0.02732
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.76652 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+update detector isotope pairing
+detectors=['H2', 'H1', 'AX', 'L1', 'L2(CDD)']
+isotopes=['Ar40', 'Ar39', 'Ar38', 'Ar37', 'Ar36']
+updating pairing H2 - Ar40
+updating pairing H1 - Ar39
+updating pairing AX - Ar38
+updating pairing L1 - Ar37
+updating pairing L2(CDD) - Ar36
+Join finished
+delaying 5 for detectors to settle after peak hop
+no intensity change cnt= 0
+signals=[  0.00000000e+00   2.12909367e+00   6.38380179e+02   1.40815872e-01
+   3.05869189e-01  -9.88053681e-02]
+prev_signals=[  0.00000000e+00   2.12909367e+00   6.38380179e+02   1.40815872e-01
+   3.05869189e-01  -9.88053681e-02]
+resetting no_intensity_change_cnt
+signals=[  1.52795465e-04   2.14256832e+00   6.38536043e+02   5.12147310e-02
+   3.15010770e-01  -3.78171398e-02]
+prev_signals=[  0.00000000e+00   2.12909367e+00   6.38380179e+02   1.40815872e-01
+   3.05869189e-01  -9.88053681e-02]
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+$$$$$$$$$$$$$$$$$ SETTING is_baseline False
+Peak hop Detectors=['AX(CDD)']
+Peak hop Deflections=[0]
+Peak hop DeflectionsPairs=[('AX(CDD)', 0)]
+SetDeflection AX (CDD),0.0 ===>> OK
+----------------------- HOP Ar38 AX(CDD)
+detector Detector(AX(CDD))
+POSITION Ar38 AX(CDD)
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+AX(CDD) map mass to dac 37.9627 >> 3.79384
+GetDeflection AX (CDD) ===>> 0
+GetHighVoltage ===>> 9900
+positioning Ar38 (3.79384) on AX(CDD)
+setting magnet DAC
+current  : 3.766520
+requested: 3.793840
+Delta Dac: 0.027320
+Checking detector protection. dv=0.02732
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.79384 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+update detector isotope pairing
+detectors=['AX(CDD)']
+isotopes=['Ar38']
+updating pairing AX(CDD) - Ar38
+Join finished
+delaying 5 for detectors to settle after peak hop
+no intensity change cnt= 0
+signals=[ 0.40970747  0.          0.10169777 -0.03421659 -0.05576426 -0.1534494 ]
+prev_signals=[ 0.40970747  0.          0.10169777 -0.03421659 -0.05576426 -0.1534494 ]
+resetting no_intensity_change_cnt
+signals=[ 0.39518753  0.          0.06032084 -0.27486357 -0.05015544 -0.07067517]
+prev_signals=[ 0.40970747  0.          0.10169777 -0.03421659 -0.05576426 -0.1534494 ]
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+14:36:01 -- collecting point 300
+$$$$$$$$$$$$$$$$$ SETTING is_baseline False
+waiting for write to finish
+measurement finished
+estimated time: 450.888 actual time: :405.076
+flush and close file /Users/obama/PychronDev/data/isotopes/4b/3661bc-0157-45c6-8347-1056cdac5b0e.h5
+set_deflection ('H2 (CDD)', 0) {}
+setting spectrometer parameter SetDeflection H2 (CDD),0
+SetDeflection H2 (CDD),0 ===>> OK
+set_deflection ('H1 (CDD)', 0) {}
+setting spectrometer parameter SetDeflection H1 (CDD),0
+SetDeflection H1 (CDD),0 ===>> OK
+set_deflection ('AX (CDD)', 0) {}
+setting spectrometer parameter SetDeflection AX (CDD),0
+SetDeflection AX (CDD),0 ===>> OK
+set_deflection ('L1 (CDD)', 0) {}
+setting spectrometer parameter SetDeflection L1 (CDD),0
+SetDeflection L1 (CDD),0 ===>> OK
+set_deflection ('L2 (CDD)', 0) {}
+setting spectrometer parameter SetDeflection L2 (CDD),0
+SetDeflection L2 (CDD),0 ===>> OK
+define_detectors ('Ar40', 'AX(CDD)') {}
+molweights={'PHHCl': 38.13021421, 'Ar40': 39.9624, 'PM41': 41.0, 'Ar35': 35.0, 'Ar36': 35.9675, 'Ar37': 36.9668, 'PHHCbs': 38.9016474, 'Ar38': 37.9627, 'Ar39': 38.964, 'PM42': 42.0}
+setting detector H2 to PM42 (42.0624)
+setting detector H1 to PM41 (41.0624)
+setting detector AX to Ar40 (40.0624)
+setting detector L1 to Ar39 (39.0624)
+setting detector L2 to Ar38 (37.9624)
+setting detector H2(CDD) to PM42 (41.9624)
+setting detector H1(CDD) to PM41 (40.9624)
+setting detector AX(CDD) to Ar40 (39.9624)
+setting detector L1(CDD) to Ar39 (38.9624)
+setting detector L2(CDD) to Ar38 (38.0624)
+baselines () {'settling_time': 15.0, 'detector': 'AX(CDD)', 'mass': 'PHHCbs', 'ncounts': 120, 'use_dac': False}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Baseline
+build tables- baseline [Detector(H2), Detector(H1), Detector(AX), Detector(AX(CDD)), Detector(L1), Detector(L2(CDD))]
+add group baseline table H2
+add group baseline table H1
+add group baseline table AX
+add group baseline table AX(CDD)
+add group baseline table L1
+add group baseline table L2(CDD)
+flush and close file /Users/obama/PychronDev/data/isotopes/4b/3661bc-0157-45c6-8347-1056cdac5b0e.h5
+detector Detector(AX(CDD))
+POSITION PHHCbs AX(CDD)
+molweights={'PHHCl': 38.13021421, 'Ar40': 39.9624, 'PM41': 41.0, 'Ar35': 35.0, 'Ar36': 35.9675, 'Ar37': 36.9668, 'PHHCbs': 38.9016474, 'Ar38': 37.9627, 'Ar39': 38.964, 'PM42': 42.0}
+setting detector H2 to PM41 (41.0016474)
+setting detector H1 to Ar40 (40.0016474)
+setting detector AX to Ar39 (39.0016474)
+setting detector L1 to Ar38 (38.0016474)
+setting detector L2 to Ar37 (36.9016474)
+setting detector H2(CDD) to PM41 (40.9016474)
+setting detector H1(CDD) to Ar40 (39.9016474)
+setting detector AX(CDD) to Ar39 (38.9016474)
+setting detector L1(CDD) to Ar38 (37.9016474)
+setting detector L2(CDD) to Ar37 (37.0016474)
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+AX(CDD) map mass to dac 38.9016474 >> 3.80892
+GetDeflection AX (CDD) ===>> 0
+GetHighVoltage ===>> 9900
+positioning PHHCbs (3.80892) on AX(CDD)
+setting magnet DAC
+current  : 3.793840
+requested: 3.808920
+Delta Dac: 0.015080
+Checking detector protection. dv=0.01508
+AF Demag not enabled. self.use_af_demag=True, use_af_demag=False
+SetMagnetDAC 3.80892 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+Delaying 15.0s for detectors to settle
+Join finished
+measuring baseline. ncounts=120
+"baseline" increment series count="2" fit count="1" regressing="True"
+starting measurement
+measurement period (ms) = 1048.576
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+14:36:43 -- collecting point 25
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+14:37:10 -- collecting point 50
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+14:37:36 -- collecting point 75
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+14:38:02 -- collecting point 100
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+waiting for write to finish
+measurement finished
+estimated time: 125.829 actual time: :126.517
+flush and close file /Users/obama/PychronDev/data/isotopes/4b/3661bc-0157-45c6-8347-1056cdac5b0e.h5
+activate_detectors ('H2', 'AX', 'L2(CDD)') {'peak_center': True}
+peak_center () {'detector': 'L2(CDD)', 'config_name': 'CDD_on_36', 'integration_time': 1.048576, 'isotope': 'Ar36'}
+peak center: mean=2.13000805057 threshold=2.0
+peak center started
+setup peak center. detector=['L2(CDD)', 'H2', 'AX'], isotope=Ar36
+VersionedUnpickler [<apptools.sweet_pickle.versioned_unpickler.VersionedUnpickler object at 0x14b29bf50>] using Updater [<apptools.sweet_pickle.updater.Updater object at 0x12da94590>]
+VersionedUnpickler [<apptools.sweet_pickle.versioned_unpickler.VersionedUnpickler object at 0x14b29bf50>] using Updater [<apptools.sweet_pickle.updater.Updater object at 0x12da94590>]
+setting integration time = 0.524288
+SetIntegrationTime 0.524288 ===>> OK
+Mapping mass to dac mass func: "discrete"
+using discrete mass mapping
+L2(CDD) map mass to dac 35.9675 >> 3.76657
+GetDeflection L2 (CDD) ===>> 0
+GetHighVoltage ===>> 9900
+do peak center. <pychron.spectrometer.jobs.peak_center.PeakCenter object at 0x12a385ef0>
+doing pc
+starting peak center. center dac= 3.76657 step_width=3e-05
+width = 3e-05
+get scan parameters. half-width=0.001,window=0.001, i=0, scalar=1
+Scan parameters center=3.76657 width=0.00200 (3.76557 - 3.76757)
+Moving to starting dac 3.76557
+setting magnet DAC
+current  : 3.808920
+requested: 3.765570
+Delta Dac: 0.043350
+Checking detector protection. dv=0.04335
+SetMagnetDAC 3.76557 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+Wait until signal near baseline. tol= 0.0. timeout= 10
+no intensity change cnt= 0
+signals=[ 0.          0.          0.02978462 -0.19234294 -0.10553408  0.00703299]
+prev_signals=[ 0.          0.          0.02978462 -0.19234294 -0.10553408  0.00703299]
+resetting no_intensity_change_cnt
+signals=[  1.52795544e-03   1.29824036e+00   2.04466206e+02  -9.49286889e-03
+  -7.57897785e-02  -1.17590427e-01]
+prev_signals=[ 0.          0.          0.02978462 -0.19234294 -0.10553408  0.00703299]
+Peak center failed to move to a baseline position
+_do_sweep sm= 3.76557, em= 3.76757, stm= 3e-05
+calculated step values: start=3.76557, end=3.76757, width=3e-05, nsteps=67.6666666667
+setting magnet DAC
+current  : 3.765570
+requested: 3.765570
+Delta Dac: 0.000000
+Checking detector protection. dv=0.00000
+set_dac. change=False
+no intensity change cnt= 0
+signals=[  0.00000000e+00   5.25889017e-02   6.05948568e+02   9.35312041e-02
+   2.36024218e-01  -4.57032815e-01]
+prev_signals=[  0.00000000e+00   5.25889017e-02   6.05948568e+02   9.35312041e-02
+   2.36024218e-01  -4.57032815e-01]
+setting magnet DAC
+current  : 3.765570
+requested: 3.765600
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+resetting no_intensity_change_cnt
+signals=[  0.00000000e+00   7.21495757e-02   6.07865523e+02  -1.44839712e-01
+   3.13043333e-01  -6.82947929e-02]
+prev_signals=[  0.00000000e+00   5.25889017e-02   6.05948568e+02   9.35312041e-02
+   2.36024218e-01  -4.57032815e-01]
+setting magnet DAC
+current  : 3.765600
+requested: 3.765631
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765631
+requested: 3.765661
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765661
+requested: 3.765691
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765691
+requested: 3.765722
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765722
+requested: 3.765752
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765752
+requested: 3.765782
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765782
+requested: 3.765812
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765812
+requested: 3.765843
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765843
+requested: 3.765873
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765873
+requested: 3.765903
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765903
+requested: 3.765934
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765934
+requested: 3.765964
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765964
+requested: 3.765994
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.765994
+requested: 3.766025
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766025
+requested: 3.766055
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766055
+requested: 3.766085
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766085
+requested: 3.766115
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766115
+requested: 3.766146
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766146
+requested: 3.766176
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766176
+requested: 3.766206
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766206
+requested: 3.766237
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766237
+requested: 3.766267
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766267
+requested: 3.766297
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766297
+requested: 3.766328
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766328
+requested: 3.766358
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766358
+requested: 3.766388
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766388
+requested: 3.766418
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766418
+requested: 3.766449
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766449
+requested: 3.766479
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766479
+requested: 3.766509
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766509
+requested: 3.766540
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766540
+requested: 3.766570
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766570
+requested: 3.766600
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766600
+requested: 3.766631
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766631
+requested: 3.766661
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766661
+requested: 3.766691
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766691
+requested: 3.766722
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766722
+requested: 3.766752
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766752
+requested: 3.766782
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766782
+requested: 3.766812
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766812
+requested: 3.766843
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766843
+requested: 3.766873
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766873
+requested: 3.766903
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766903
+requested: 3.766934
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766934
+requested: 3.766964
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766964
+requested: 3.766994
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.766994
+requested: 3.767025
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767025
+requested: 3.767055
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767055
+requested: 3.767085
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767085
+requested: 3.767115
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767115
+requested: 3.767146
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767146
+requested: 3.767176
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767176
+requested: 3.767206
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767206
+requested: 3.767237
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767237
+requested: 3.767267
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767267
+requested: 3.767297
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767297
+requested: 3.767328
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767328
+requested: 3.767358
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767358
+requested: 3.767388
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767388
+requested: 3.767418
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767418
+requested: 3.767449
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767449
+requested: 3.767479
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767479
+requested: 3.767509
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767509
+requested: 3.767540
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+setting magnet DAC
+current  : 3.767540
+requested: 3.767570
+Delta Dac: 0.000030
+Checking detector protection. dv=0.00003
+Magnet settling time: 1.049 0.500
+Magnet settling complete
+set_dac. change=True
+result of _do_sweep=True
+result of _calculate_peak_center=([3.7661291182364733, 3.766547955911824, 3.7669667935871747], [1.5678340425820045, 2.1111462520984636, 1.5614429603746662], 3.7666000601202407, 2.1111462520984636)
+Failed to find a valid peak. peak not well centered, len(x)=500, len(y)=500, i=499
+Failed to find a valid peak. No peak greater than 0.5. max = 0.386179927111
+new center pos Detector(L2(CDD)) (Ar36) @ 3.76654795591
+GetHighVoltage ===>> 9900
+GetDeflection L2 (CDD) ===>> 0
+dac uncorrected for HV and deflection 3.76654795591
+update mftable L2(CDD) Ar36 3.76654795591 message=automated run peakcenter
+get initial guess discrete
+get initial guess discrete
+get initial guess discrete
+dump mftable to /Users/obama/PychronDev/setupfiles/spectrometer/mftables/argon_2CDD.csv
+Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/obama/PychronDev/setupfiles/spectrometer/felix_mftable_archive, universal_newlines=False, shell=None)
+Popen(['git', 'cat-file', '--batch'], cwd=/Users/obama/PychronDev/setupfiles/spectrometer/felix_mftable_archive, universal_newlines=False, shell=None)
+locally archiving mftable
+sweep finished
+setting magnet DAC
+current  : 3.767570
+requested: 3.766548
+Delta Dac: 0.001022
+Checking detector protection. dv=0.00102
+SetMagnetDAC 3.76654795591 ===>> OK
+Magnet settling time: 0.500 0.500
+Magnet settling complete
+set_dac. change=True
+setting integration time = 1.048576
+SetIntegrationTime 1.048576 ===>> OK
+Failed to find a valid peak. peak not well centered, len(x)=500, len(y)=500, i=499
+Failed to find a valid peak. No peak greater than 0.5. max = 0.386179927111
+flush and close file /Users/obama/PychronDev/data/isotopes/4b/3661bc-0157-45c6-8347-1056cdac5b0e.h5
+finished measure script
+executed snippet estimated_duration=171.0, duration=670.493207216
+felix_peak_hop_argon_2CDD_CDD_center.py completed successfully
+Measurement Finished
+14:39:50 -- ******* Measurement Finished *******
+Post Measurement Started felix_pump_ms.py
+14:39:50 -- ******* Post Measurement Started felix_pump_ms.py *******
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=2.59876251221e-05
+Pumping spectrometer
+open () {'name': 'V'}
+open name=V desc=---
+checking ownership. requestor=192.168.2.137
+check software interlocks V
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open V ===>> OK
+GetIndicatorState V ===>> OK
+change switch state (True, True)
+14:39:50 -- OPEN   VALVE-V (Felix Ion Pump)
+-------------------------- open V () result=[(True, True)]
+action=open, ok=True, locked=[False]
+executed snippet estimated_duration=0, duration=0.429562091827
+felix_pump_ms.py completed successfully
+setting _ms_pumptime
+Post Measurement Finished
+14:39:50 -- ******* Post Measurement Finished *******
+$$$$$$$$$$$$$$$$$$$$ state at run end measurement
+state changed from measurement to success
+post measurement save measured=True aborted=False
+Set filtering
+setting fod for Ar40= {'filter_outliers': True, 'std_devs': 2, 'iterations': 2}
+setting fod for H2= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar38= {'filter_outliers': True, 'std_devs': 2, 'iterations': 2}
+setting fod for AX= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar36= {'filter_outliers': True, 'std_devs': 2, 'iterations': 2}
+setting fod for L2(CDD)= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar37= {'filter_outliers': True, 'std_devs': 2, 'iterations': 2}
+setting fod for L1= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar38= {'filter_outliers': True, 'std_devs': 2, 'iterations': 2}
+setting fod for AX(CDD)= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+setting fod for Ar39= {'filter_outliers': True, 'std_devs': 2, 'iterations': 2}
+setting fod for H1= {'filter_outliers': True, 'std_devs': 2, 'iterations': 1}
+not connected to db mysql://felixexp@129.138.12.160/labspy
+Enviromentals: {'lab_humiditys': [{'device': 'EnvironmentalMonitor',
+                    'name': 'Lab Hum.',
+                    'pub_date': '2017-10-20T13:50:39',
+                    'title': 'iServer Hum.',
+                    'value': 43.0}],
+ 'lab_pneumatics': [{'device': 'AirPressure',
+                     'name': 'Pressure',
+                     'pub_date': '2017-10-20T14:38:50',
+                     'title': None,
+                     'value': 86.625},
+                    {'device': 'AirPressure2',
+                     'name': 'Pressure2',
+                     'pub_date': '2017-10-20T14:39:02',
+                     'title': None,
+                     'value': 86.78332}],
+ 'lab_temperatures': [{'device': 'Coldfinger',
+                       'name': 'ColdFinger Temp.',
+                       'pub_date': '2017-10-20T14:37:03',
+                       'title': None,
+                       'value': 72.0},
+                      {'device': 'EnvironmentalMonitor',
+                       'name': 'Lab Temp.',
+                       'pub_date': '2017-10-20T14:15:53',
+                       'title': 'iServer Temp.',
+                       'value': 73.4},
+                      {'device': 'Chiller',
+                       'name': 'Coolant Temp.',
+                       'pub_date': '2017-10-20T14:25:35',
+                       'title': None,
+                       'value': 18.0}]}
+persistence save...
+persistence save - db
+post measurement save
+5547987312 connecting to database sqlite://@/
+connected to db sqlite://@/
+create new session 5547987312
+close session 5547987312
+No database instance. Not saving post measurement to isotopedb database
+$$$$$$$$$$$$$$$ auto_save_detector_ic=False
+massspec enabled True
+create new session 5348939056
+MassSpec Database Version: 16.0
+close session 5348939056
+saving post measurement to secondary database
+saving to massspec database 129.138.12.160/massspecdata
+setting labnumber to a-01-F
+setting aliquot to 2575
+setting step to 
+setting uuid to 4b3661bc-0157-45c6-8347-1056cdac5b0e
+setting irradpos to a-01-F
+setting extract_device to Extract Device
+setting tray to ---
+setting position to 
+setting power_requested to 0.0
+setting extract_value to 0.0
+setting duration to 0.0
+setting duration_at_request to 0.0
+setting first_stage_delay to 0.0
+setting cleanup to 0.0
+setting comment to 
+setting irradiation to NoIrradiation
+setting level to A
+setting irradiation_level to A
+setting sample to air
+setting material to Gas
+setting project to REFERENCES
+setting mass_spectrometer to Felix
+no attribute chron_dosages
+no attribute production_ratios
+no attribute interference_corrections
+no attribute production_name
+no attribute j
+Reference Isotope=Ar40
+Reference Detector=H2
+%%%%%%%%%%%%%%%%%%%% Comment:  %%%%%%%%%%%%%%%%%%%
+adding isotope Ar40 H2
+add baseline dbdet= Ar40. original det= H2
+get baseline data Ar40 H2
+Get data baseline <pychron.processing.isotope.Baseline object at 0x14a346d50> len t=120
+baseline Ar40. v=0.00982379230486, e=0.00924192700554
+get signal data Ar40 H2
+Get data signal Ar40 668.86+/-0.13 len t=100
+adding isotope Ar39 H1
+add baseline dbdet= Ar39. original det= H1
+get baseline data Ar39 H1
+Get data baseline <pychron.processing.isotope.Baseline object at 0x14c1d1750> len t=120
+baseline Ar39. v=-0.0458074986222, e=0.0124558742418
+get signal data Ar39 H1
+Get data signal Ar39 -0.03+/-0.04 len t=100
+adding isotope Ar38 AX
+add baseline dbdet= Ar38. original det= AX
+get baseline data Ar38 AX
+Get data baseline Ar38 len t=1
+baseline Ar38. v=0.0, e=0.0
+get signal data Ar38 AX
+Get data signal Ar38 len t=1
+no key Ar38 ['Ar40', 'Ar36', 'Ar37', 'Ar38AX', 'Ar38AX(CDD)', 'Ar39']
+no blank for Ar38 ['Ar40', 'Ar36', 'Ar37', 'Ar38AX', 'Ar38AX(CDD)', 'Ar39']
+adding isotope Ar38 AX(CDD)
+add baseline dbdet= Ar38. original det= AX(CDD)
+get baseline data Ar38 AX(CDD)
+Get data baseline Ar38 len t=1
+baseline Ar38. v=0.0, e=0.0
+get signal data Ar38 AX(CDD)
+Get data signal Ar38 len t=1
+no key Ar38 ['Ar40', 'Ar36', 'Ar37', 'Ar38AX', 'Ar38AX(CDD)', 'Ar39']
+no blank for Ar38 ['Ar40', 'Ar36', 'Ar37', 'Ar38AX', 'Ar38AX(CDD)', 'Ar39']
+adding isotope Ar37 L1
+add baseline dbdet= Ar37. original det= L1
+get baseline data Ar37 L1
+Get data baseline <pychron.processing.isotope.Baseline object at 0x14c093b50> len t=120
+baseline Ar37. v=-0.133513035942, e=0.00933832240884
+get signal data Ar37 L1
+Get data signal Ar37 0.011+/-0.021 len t=100
+adding isotope Ar36 L2(CDD)
+add baseline dbdet= Ar36. original det= L2(CDD)
+get baseline data Ar36 L2(CDD)
+Get data baseline <pychron.processing.isotope.Baseline object at 0x14c0935d0> len t=120
+baseline Ar36. v=0.0, e=0.0
+get signal data Ar36 L2(CDD)
+Get data signal Ar36 2.268+/-0.005 len t=100
+a-01-F-2575 added analysis time 0.54726099968s
+analysis added to mass spec database
+mass spec save time= 0.557
+persistence save - dvc
+================= post measurement started
+create new session 4790803056
+close session 4790803056
+---------------- Experiment Queue saving disabled
+DVC saving peakcenter
+Failed to find a valid peak. peak not well centered, len(x)=500, len(y)=500, i=499
+Failed to find a valid peak. No peak greater than 0.5. max = 0.386179927111
+Popen(['git', 'fetch', 'origin'], cwd=/Users/obama/PychronDev/data/.dvc/repositories/FractionatedRes, universal_newlines=False, shell=None)
+Popen(['git', 'status', '-sb'], cwd=/Users/obama/PychronDev/data/.dvc/repositories/FractionatedRes, universal_newlines=False, shell=None)
+not at valid file /Users/obama/PychronDev/data/.dvc/repositories/FractionatedRes/a-01/tags/-F-2575.tags.json
+not at valid file /Users/obama/PychronDev/data/.dvc/repositories/FractionatedRes/a-01/monitor/-F-2575.moni.json
+Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/obama/PychronDev/data/.dvc/repositories/FractionatedRes, universal_newlines=False, shell=None)
+Popen(['git', 'cat-file', '--batch'], cwd=/Users/obama/PychronDev/data/.dvc/repositories/FractionatedRes, universal_newlines=False, shell=None)
+push repository <pychron.git_archive.repo_manager.GitRepoManager object at 0x12abf0410>
+pushing to remote=origin, url=https://github.com
+Popen(['git', 'push', 'origin', 'master'], cwd=/Users/obama/PychronDev/data/.dvc/repositories/FractionatedRes, universal_newlines=False, shell=None)
+Popen(['git', 'fetch', 'origin'], cwd=/Users/obama/PychronDev/data/.dvc/MetaData, universal_newlines=False, shell=None)
+Popen(['git', 'status', '-sb'], cwd=/Users/obama/PychronDev/data/.dvc/MetaData, universal_newlines=False, shell=None)
+Popen(['git', 'diff', 'HEAD', '--name-only'], cwd=/Users/obama/PychronDev/data/.dvc/MetaData, universal_newlines=False, shell=None)
+no changes to meta repo
+Popen(['git', 'push', 'origin', 'master'], cwd=/Users/obama/PychronDev/data/.dvc/MetaData, universal_newlines=False, shell=None)
+create new session 4790803056
+add association FractionatedRes
+get identifier "a-01-F"
+setting analysis irradiation position=<pychron.dvc.dvc_orm.IrradiationPositionTbl object at 0x14016f190>
+close session 4790803056
+================= post measurement finished
+14:40:00 -- ******* Post Run Check *******
+loading queue conditionals post_run_actions
+loading system conditionals post_run_actions
+loading conditionals from /Users/obama/PychronDev/setupfiles/spectrometer/default_conditionals.yaml
+loading queue conditionals post_run_terminations
+loading system conditionals post_run_terminations
+loading conditionals from /Users/obama/PychronDev/setupfiles/spectrometer/default_conditionals.yaml
+Checking default post run terminations n=1
+GetDeflection L2 (CDD) ===>> 0
+testing L2_CDD_==3250
+evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
+14:40:00 -- ******* Post Run Check Passed *******
+14:40:00 -- Automated run a-01-F-2575 success duration: 906.420 s
+----------------- finish -----------------
+----------------- stop -----------------
+retroactive repository identifiers disabled
+finish run. runs completed=3
+update duration runid=a-01-F-2575, duration=906.420020103, md5=79f40f08
+loading script "felix_peak_hop_argon_2CDD_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x5.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=139.8, duration=0.0148320198059
+script duration name:peak_hop_argon_2CDD_CDD_center seconds:140.0
+loading script "felix_peak_hop_argon_2CDD_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x5.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=2.59876251221e-05
+loading script "felix_peak_hop_argon_2CDD_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x5.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=5.41210174561e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.0001060962677
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=9.01222229004e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000105857849121
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=2.0, duration=7.20024108887e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.08238983154e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=8.89301300049e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=7.79628753662e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000101804733276
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=7.5101852417e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000103950500488
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=7.41481781006e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000169038772583
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=7.08103179932e-05
+executed snippet estimated_duration=384.0, duration=0.0461738109589
+script duration name:air_x5 seconds:384.0
+loading script "felix_peak_hop_argon_2CDD_CDD_center.py"
+loading script "felix_pump_ms.py"
+loading script "felix_air_x5.py"
+loading script "felix_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.00016188621521
+executed snippet estimated_duration=4.0, duration=0.00139093399048
+Script duration 524.0
+Run total estimated duration= 525.000
+peak_hop_argon_2CDD_CDD_center in script context. using previous estimated duration
+script duration name:peak_hop_argon_2CDD_CDD_center seconds:140.0
+pump_ms in script context. using previous estimated duration
+air_x5 in script context. using previous estimated duration
+script duration name:air_x5 seconds:384.0
+pump_extraction_line in script context. using previous estimated duration
+Script duration 524.0
+Run total estimated duration= 525.000
+script duration name:peak_hop_argon_2CDD_CDD_center seconds:140.0
+script duration name:air_x5 seconds:384.0
+Script duration 524.0
+Run total estimated duration= 525.000
+script duration name:peak_hop_argon_2CDD_CDD_center seconds:140.0
+script duration name:air_x5 seconds:384.0
+Script duration 524.0
+Run total estimated duration= 525.000
+script duration name:peak_hop_argon_2CDD_CDD_center seconds:140.0
+script duration name:air_x5 seconds:384.0
+Script duration 524.0
+Run total estimated duration= 525.000
+script duration name:peak_hop_argon_2CDD_CDD_center seconds:140.0
+script duration name:air_x5 seconds:384.0
+Script duration 524.0
+Run total estimated duration= 525.000
+script duration name:peak_hop_argon_2CDD_CDD_center seconds:140.0
+script duration name:air_x5 seconds:384.0
+Script duration 524.0
+Run total estimated duration= 525.000
+script duration name:peak_hop_argon_2CDD_CDD_center seconds:140.0
+script duration name:air_x5 seconds:384.0
+Script duration 524.0
+Run total estimated duration= 525.000
+script duration name:peak_hop_argon_2CDD_CDD_center seconds:140.0
+script duration name:air_x5 seconds:384.0
+Script duration 524.0
+Run total estimated duration= 525.000
+script duration name:peak_hop_argon_2CDD_CDD_center seconds:140.0
+script duration name:air_x5 seconds:384.0
+Script duration 524.0
+Run total estimated duration= 525.000
+script duration name:peak_hop_argon_2CDD_CDD_center seconds:140.0
+script duration name:air_x5 seconds:384.0
+Script duration 524.0
+Run total estimated duration= 525.000
+script duration name:peak_hop_argon_2CDD_CDD_center seconds:140.0
+script duration name:air_x5 seconds:384.0
+Script duration 524.0
+Run total estimated duration= 525.000
+script duration name:peak_hop_argon_2CDD_CDD_center seconds:140.0
+script duration name:air_x5 seconds:384.0
+Script duration 524.0
+Run total estimated duration= 525.000
+script duration name:peak_hop_argon_2CDD_CDD_center seconds:140.0
+script duration name:air_x5 seconds:384.0
+Script duration 524.0
+Run total estimated duration= 525.000
+script duration name:peak_hop_argon_2CDD_CDD_center seconds:140.0
+script duration name:air_x5 seconds:384.0
+Script duration 524.0
+Run total estimated duration= 525.000
+script duration name:peak_hop_argon_2CDD_CDD_center seconds:140.0
+script duration name:air_x5 seconds:384.0
+Script duration 524.0
+Run total estimated duration= 525.000
+script duration name:peak_hop_argon_2CDD_CDD_center seconds:140.0
+script duration name:air_x5 seconds:384.0
+Script duration 524.0
+Run total estimated duration= 525.000
+nruns=17 before=5.0, run_dur=8925.0, btw=16.0
+write rem/ex queues
+/Users/obama/PychronDev/experiments/rem/Argon2CDD_38AX.rem.txt
+/Users/obama/PychronDev/experiments/rem/Argon2CDD_38AX.ex.txt
+doing event level: 3
+add run
