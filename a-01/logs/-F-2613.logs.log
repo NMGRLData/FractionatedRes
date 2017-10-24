@@ -4,14 +4,14 @@ loading script "felix_pump_ms.py"
 loading script "felix_pump_extraction_line.py"
 testing...
 no interpolation path defined
-executed snippet estimated_duration=139.8, duration=0.0104999542236
+executed snippet estimated_duration=139.8, duration=0.0104620456696
 script duration name:peak_hop_argon_2CDD_CDD_center seconds:140.0
 loading script "felix_peak_hop_argon_2CDD_CDD_center.py"
 loading script "felix_pump_ms.py"
 loading script "felix_pump_extraction_line.py"
 testing...
 no interpolation path defined
-executed snippet estimated_duration=0, duration=2.21729278564e-05
+executed snippet estimated_duration=0, duration=2.40802764893e-05
 loading script "felix_peak_hop_argon_2CDD_CDD_center.py"
 loading script "felix_pump_ms.py"
 loading script "felix_pump_extraction_line.py"
@@ -23,13 +23,13 @@ no interpolation path defined
 calculate duration
 testing...
 no interpolation path defined
-executed snippet estimated_duration=4.0, duration=0.0001540184021
-executed snippet estimated_duration=4.0, duration=0.0010290145874
+executed snippet estimated_duration=4.0, duration=0.000156879425049
+executed snippet estimated_duration=4.0, duration=0.000954866409302
 Script duration 140.0
 Run total estimated duration= 141.000
 run duration: 0:02:21
 doing event level: 2
-15:04:00 -- Setting default integration. t=1.048576
+15:30:52 -- Setting default integration. t=1.048576
 setting integration time = 1.048576
 SetIntegrationTime 1.048576 ===>> OK
 ----------------- start -----------------
@@ -49,28 +49,28 @@ $$$$$$$$$$$$$$$ auto_save_detector_ic=False
 loading queue conditionals pre_run_terminations
 loading system conditionals pre_run_terminations
 loading conditionals from /Users/obama/PychronDev/setupfiles/spectrometer/default_conditionals.yaml
-15:04:00 -- ******* Pre Extraction Check *******
+15:30:53 -- ******* Pre Extraction Check *******
 Get a measurement from the spectrometer
-Pre Extraction Termination data. keys=AX(CDD),L2(CDD),H2,H1,AX,L1, signals=0.00000,0.00048,-0.18161,0.14452,-0.03249,-0.29892
-15:04:00 -- testing system defined conditionals
+Pre Extraction Termination data. keys=AX(CDD),L2(CDD),H2,H1,AX,L1, signals=0.00000,0.00032,-0.03490,0.12174,0.01591,-0.25339
+15:30:53 -- testing system defined conditionals
 Checking default pre extraction terminations n=2
 testing L2_CDD_
 evaluate ot="L2(CDD).inactive" t="L2_CDD_", ctx="{'L2_CDD_': False}"
 GetDeflection L2 (CDD) ===>> 0
 testing L2_CDD_==3250
 evaluate ot="L2(CDD).deflection==3250" t="L2_CDD_==3250", ctx="{'L2_CDD_': 0.0}"
-15:04:00 -- ******* Pre Extraction Check Passed *******
+15:30:53 -- ******* Pre Extraction Check Passed *******
 =================================================================================
-15:04:00 -- stopping status monitor. block=True
-stop 4989942672
+15:30:53 -- stopping status monitor. block=True
+stop 4836887440
 Status monitor stopped
 Status monitor finished
-15:04:04 -- starting status monitor
-start 4989942672
+15:30:57 -- starting status monitor
+start 4836887440
 StatusMonitor period=3. Frequencies(state=1, checksum=3, lock=5, owner=5)
 start extraction
 no extraction script
-15:04:09 -- Sending spectrometer configuration
+15:31:02 -- Sending spectrometer configuration
 ======== Sending configuration ========
 SetDeflection H1(CDD),0.0 ===>> Error: could not set Deflection H1(CDD) Set to 0
 SetDeflection L2(CDD),0.0 ===>> Error: could not set Deflection L2(CDD) Set to 0
@@ -84,7 +84,7 @@ SetIonRepeller -5.15 ===>> OK
 SetElectronEnergy 125.02 ===>> OK
 SetYSymmetry 38.07 ===>> OK
 send trap current 250.0
-GetParameter Trap Current Readback ===>> 249.054385643655
+GetParameter Trap Current Readback ===>> 248.830617103095
 SetParameter Trap Current Set,250.0 ===>> OK
 updating mftable name argon_2CDD
 Using mftable located at /Users/obama/PychronDev/setupfiles/spectrometer/mftables/argon_2CDD.csv
@@ -101,13 +101,13 @@ get initial guess discrete
 ======== Configuration Finished ========
 GetYSymmetry ===>> 38.07
 GetZSymmetry ===>> 3.34554334554335
-GetParameter Trap Current Readback ===>> 247.935542940853
+GetParameter Trap Current Readback ===>> 248.830617103095
 GetHighVoltage ===>> 9900
 start measurement
 do measurement
 L#=a-01-F analysis type=air
 Measurement Started felix_peak_hop_argon_2CDD_CDD_center.py
-15:04:09 -- ******* Measurement Started felix_peak_hop_argon_2CDD_CDD_center.py *******
+15:31:02 -- ******* Measurement Started felix_peak_hop_argon_2CDD_CDD_center.py *******
 state changed from not run to measurement
 setting trap, emission, spec, defl, and gains
 GetExtractionLens ===>> 63.57
@@ -129,11 +129,11 @@ GetGain H1(CDD) ===>> 0
 GetGain AX(CDD) ===>> 0
 GetGain L1(CDD) ===>> 0
 GetGain L2(CDD) ===>> 0
-GetParameter Trap Current Readback ===>> 248.494964292254
+GetParameter Trap Current Readback ===>> 248.047427211133
 GetParameter Source Current Readback ===>> 862.866935237746
 pre measurement save
-New frame /Users/obama/PychronDev/data/isotopes/66/a77bf7-2c59-40b5-b8a8-cdce7c8260d1.h5
-flush and close file /Users/obama/PychronDev/data/isotopes/66/a77bf7-2c59-40b5-b8a8-cdce7c8260d1.h5
+New frame /Users/obama/PychronDev/data/isotopes/ac/f3f17c-77bd-44e5-88a6-ec917d602b2a.h5
+flush and close file /Users/obama/PychronDev/data/isotopes/ac/f3f17c-77bd-44e5-88a6-ec917d602b2a.h5
 testing...
 no interpolation path defined
 molweights={'PHHCl': 38.13021421, 'Ar40': 39.9624, 'PM41': 41.0, 'Ar35': 35.0, 'Ar36': 35.9675, 'Ar37': 36.9668, 'PHHCbs': 38.9016474, 'Ar38': 37.9627, 'Ar39': 38.964, 'PM42': 42.0}
@@ -147,7 +147,7 @@ setting detector H1(CDD) to PM41 (40.9624)
 setting detector AX(CDD) to Ar40 (39.9624)
 setting detector L1(CDD) to Ar39 (38.9624)
 setting detector L2(CDD) to Ar38 (38.0624)
-executed snippet estimated_duration=155.4, duration=0.0168900489807
+executed snippet estimated_duration=155.4, duration=0.017392873764
 unknown measurement script
 activate_detectors ('H2', 'H1', 'AX', 'AX(CDD)', 'L1', 'L2(CDD)') {}
 activate detectors
@@ -184,7 +184,7 @@ SetIonRepeller -5.15 ===>> OK
 SetElectronEnergy 125.02 ===>> OK
 SetYSymmetry 38.07 ===>> OK
 send trap current 250.0
-GetParameter Trap Current Readback ===>> 248.494964292254
+GetParameter Trap Current Readback ===>> 248.383080021974
 SetParameter Trap Current Set,250.0 ===>> OK
 updating mftable name argon_2CDD
 Using mftable located at /Users/obama/PychronDev/setupfiles/spectrometer/mftables/argon_2CDD.csv
@@ -201,7 +201,7 @@ get initial guess discrete
 ======== Configuration Finished ========
 GetYSymmetry ===>> 38.07
 GetZSymmetry ===>> 3.34554334554335
-GetParameter Trap Current Readback ===>> 247.823658670573
+GetParameter Trap Current Readback ===>> 248.047427211133
 GetHighVoltage ===>> 9900
 position_magnet ('Ar36',) {'detector': 'L2(CDD)'}
 detector Detector(L2(CDD))
@@ -243,40 +243,46 @@ _execute: Traceback (most recent call last):
     return func(*args, **kw)
   File "/Users/obama/.pychron.1/updates/pychron/experiment/automated_run/automated_run.py", line 269, in py_position_magnet
     self._set_magnet_position(pos, detector, use_dac=use_dac)
-  File "/Users/obama/.pychron.1/updates/pychron/experiment/automated_run/automated_run.py", line 2124, in _set_magnet_position
-    if len(items) > 1:
-TypeError: object of type 'itertools._grouper' has no len()
+  File "/Users/obama/.pychron.1/updates/pychron/experiment/automated_run/automated_run.py", line 2096, in _set_magnet_position
+    self._update_detectors()
+  File "/Users/obama/.pychron.1/updates/pychron/experiment/automated_run/automated_run.py", line 2080, in _update_detectors
+    self.isotope_group.set_isotope_detector(det)
+  File "/Users/obama/.pychron.1/updates/pychron/processing/isotope_group.py", line 289, in set_isotope_detector
+    iso.ic_factor = self.get_ic_factor(det)
+  File "/Users/obama/.pychron.1/updates/pychron/processing/isotope_group.py", line 185, in get_ic_factor
+    det = det.lower()
+AttributeError: 'HelixDetector' object has no attribute 'lower'
 
-Post Measurement Started felix_pump_ms.py
 Post Equilibration Started felix_pump_extraction_line.py
-15:04:10 -- ******* Post Measurement Started felix_pump_ms.py *******
-15:04:10 -- ******* Post Equilibration Started felix_pump_extraction_line.py *******
-testing...
+Post Measurement Started felix_pump_ms.py
+15:31:02 -- ******* Post Equilibration Started felix_pump_extraction_line.py *******
+15:31:02 -- ******* Post Measurement Started felix_pump_ms.py *******
 testing...
 no interpolation path defined
-no interpolation path defined
-executed snippet estimated_duration=0, duration=2.88486480713e-05
+testing...
 calculate duration
+no interpolation path defined
+testing...
+executed snippet estimated_duration=0, duration=3.00407409668e-05
+no interpolation path defined
 Pumping spectrometer
-testing...
+executed snippet estimated_duration=4.0, duration=0.000245809555054
+executed snippet estimated_duration=4.0, duration=0.0029149055481
 open () {'name': 'V'}
-no interpolation path defined
-open name=V desc=---
-executed snippet estimated_duration=4.0, duration=0.000185012817383
-executed snippet estimated_duration=4.0, duration=0.00309801101685
-checking ownership. requestor=192.168.2.137
 Pump after analysis
-check software interlocks V
-interlocks []
+open name=V desc=---
 doing GOSUB
-actuate state mode=None-script, software_lock=False
-doing actuation None-script open_channel False
 testing...
+checking ownership. requestor=192.168.2.137
 no interpolation path defined
-executed snippet estimated_duration=4.0, duration=0.000165939331055
+check software interlocks V
+executed snippet estimated_duration=4.0, duration=0.000164985656738
+interlocks []
 Pump Bone
+actuate state mode=None-script, software_lock=False
 close () {'description': 'Felix Inlet'}
 close name=--- desc=Felix Inlet
+doing actuation None-script open_channel False
 checking ownership. requestor=192.168.2.137
 check software interlocks H
 interlocks []
@@ -286,26 +292,26 @@ Open V ===>> OK
 Close H ===>> OK
 GetIndicatorState V ===>> OK
 change switch state (True, True)
-15:04:10 -- OPEN   VALVE-V (Felix Ion Pump)
+15:31:02 -- OPEN   VALVE-V (Felix Ion Pump)
 -------------------------- open V () result=[(True, True)]
 GetIndicatorState H ===>> False
 change switch state (True, True)
-15:04:10 -- CLOSE  VALVE-H (Felix Inlet)
+15:31:03 -- CLOSE  VALVE-H (Felix Inlet)
 -------------------------- close None (Felix Inlet) result=[(True, True)]
 action=open, ok=True, locked=[False]
-executed snippet estimated_duration=0, duration=0.418957948685
+executed snippet estimated_duration=0, duration=0.455997943878
 felix_pump_ms.py completed successfully
 setting _ms_pumptime
 Post Measurement Finished
-15:04:10 -- ******* Post Measurement Finished *******
+15:31:03 -- ******* Post Measurement Finished *******
 ----------------- finish -----------------
 state changed from measurement to failed
 ----------------- stop -----------------
 Measurement Finished unsuccessfully. Aborted=False
-15:04:10 -- ******* Measurement Finished unsuccessfully. Aborted=False *******
+15:31:03 -- ******* Measurement Finished unsuccessfully. Aborted=False *******
 failed execution step Measurement Failed
 measurement did not complete successfully
-15:04:10 -- Automated run a-01-F-2613 failed duration: 10.385 s
+15:31:03 -- Automated run a-01-F-2613 failed duration: 10.468 s
 ----------------- finish -----------------
 ----------------- stop -----------------
 finish run. runs completed=1
